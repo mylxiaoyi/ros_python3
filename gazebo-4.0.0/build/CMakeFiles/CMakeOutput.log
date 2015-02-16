@@ -1,0 +1,1396 @@
+The system is: Linux - 3.16.5-gentoo - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1509061674/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1509061674.dir/build.make CMakeFiles/cmTryCompileExec1509061674.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1509061674.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1509061674.dir/testCCompiler.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1509061674
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1509061674.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1509061674.dir/testCCompiler.c.o  -o cmTryCompileExec1509061674 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2258273843/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2258273843.dir/build.make CMakeFiles/cmTryCompileExec2258273843.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2258273843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2258273843.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2258273843 -rdynamic  
+使用内建 specs。
+COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper
+目标：x86_64-pc-linux-gnu
+配置为：/var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.4, pie-0.5.5' --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --disable-libgcj --enable-libgomp --disable-libmudflap --disable-libssp --enable-lto --without-cloog --without-ppl
+线程模型：posix
+gcc 版本 4.7.3 (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2258273843' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2258273843 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2258273843/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2258273843.dir/build.make CMakeFiles/cmTryCompileExec2258273843.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2258273843]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2258273843.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2258273843 -rdynamic  ]
+  ignore line: [使用内建 specs。]
+  ignore line: [COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper]
+  ignore line: [目标：x86_64-pc-linux-gnu]
+  ignore line: [配置为：/var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.4, pie-0.5.5' --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --disable-libgcj --enable-libgomp --disable-libmudflap --disable-libssp --enable-lto --without-cloog --without-ppl]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 4.7.3 (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2258273843' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2258273843 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2258273843] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..]
+    arg [CMakeFiles/cmTryCompileExec2258273843.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec474226700/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec474226700.dir/build.make CMakeFiles/cmTryCompileExec474226700.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec474226700.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec474226700.dir/testCXXCompiler.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec474226700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec474226700.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec474226700.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec474226700 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2523359472/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2523359472.dir/build.make CMakeFiles/cmTryCompileExec2523359472.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2523359472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2523359472.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2523359472 -rdynamic  
+使用内建 specs。
+COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper
+目标：x86_64-pc-linux-gnu
+配置为：/var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.4, pie-0.5.5' --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --disable-libgcj --enable-libgomp --disable-libmudflap --disable-libssp --enable-lto --without-cloog --without-ppl
+线程模型：posix
+gcc 版本 4.7.3 (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2523359472' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2523359472 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2523359472/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2523359472.dir/build.make CMakeFiles/cmTryCompileExec2523359472.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2523359472]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2523359472.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2523359472 -rdynamic  ]
+  ignore line: [使用内建 specs。]
+  ignore line: [COLLECT_GCC=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/lto-wrapper]
+  ignore line: [目标：x86_64-pc-linux-gnu]
+  ignore line: [配置为：/var/tmp/portage/sys-devel/gcc-4.7.3-r1/work/gcc-4.7.3/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/4.7.3 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/include/g++-v4 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/4.7.3/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 4.7.3-r1 p1.4, pie-0.5.5' --enable-libstdcxx-time --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-altivec --disable-fixed-point --enable-targets=all --disable-libgcj --enable-libgomp --disable-libmudflap --disable-libssp --enable-lto --without-cloog --without-ppl]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 4.7.3 (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2523359472' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2523359472 /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../.. CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/4.7.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2523359472] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..]
+    arg [CMakeFiles/cmTryCompileExec2523359472.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/4.7.3;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3143956127/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3143956127.dir/build.make CMakeFiles/cmTryCompileExec3143956127.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3143956127.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3143956127.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3143956127
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3143956127.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3143956127.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3143956127 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1221223172/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1221223172.dir/build.make CMakeFiles/cmTryCompileExec1221223172.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1221223172.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1221223172.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1221223172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1221223172.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1221223172.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1221223172 -rdynamic -lpthread 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3281648607/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3281648607.dir/build.make CMakeFiles/cmTryCompileExec3281648607.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3281648607.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3281648607.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3281648607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3281648607.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3281648607.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3281648607 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2499624216/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2499624216.dir/build.make CMakeFiles/cmTryCompileExec2499624216.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2499624216.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec2499624216.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2499624216
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2499624216.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec2499624216.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2499624216 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec369043623/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec369043623.dir/build.make CMakeFiles/cmTryCompileExec369043623.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec369043623.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec369043623.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec369043623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec369043623.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec369043623.dir/CheckFunctionExists.c.o  -o cmTryCompileExec369043623 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1706037608/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1706037608.dir/build.make CMakeFiles/cmTryCompileExec1706037608.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1706037608.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1706037608.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1706037608
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1706037608.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1706037608.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1706037608 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2202764289/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2202764289.dir/build.make CMakeFiles/cmTryCompileExec2202764289.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2202764289.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2202764289.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2202764289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2202764289.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2202764289.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2202764289 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1925180956/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1925180956.dir/build.make CMakeFiles/cmTryCompileExec1925180956.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1925180956.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1925180956.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1925180956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1925180956.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1925180956.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1925180956 -rdynamic -lICE 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3677952007/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3677952007.dir/build.make CMakeFiles/cmTryCompileExec3677952007.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3677952007.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3677952007.dir/CheckSymbolExists.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3677952007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3677952007.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3677952007.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3677952007 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+File /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test R-Wall succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2424509177/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2424509177.dir/build.make CMakeFiles/cmTryCompileExec2424509177.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2424509177.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wall   -Wall -o CMakeFiles/cmTryCompileExec2424509177.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec2424509177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2424509177.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wall    CMakeFiles/cmTryCompileExec2424509177.dir/src.cxx.o  -o cmTryCompileExec2424509177 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Wextra succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec733176709/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec733176709.dir/build.make CMakeFiles/cmTryCompileExec733176709.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec733176709.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wextra   -Wextra -o CMakeFiles/cmTryCompileExec733176709.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec733176709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec733176709.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wextra    CMakeFiles/cmTryCompileExec733176709.dir/src.cxx.o  -o cmTryCompileExec733176709 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Wno-long-long succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1139097813/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1139097813.dir/build.make CMakeFiles/cmTryCompileExec1139097813.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1139097813.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wno-long-long   -Wno-long-long -o CMakeFiles/cmTryCompileExec1139097813.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec1139097813
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1139097813.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wno-long-long    CMakeFiles/cmTryCompileExec1139097813.dir/src.cxx.o  -o cmTryCompileExec1139097813 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Wno-unused-value succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4027066748/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4027066748.dir/build.make CMakeFiles/cmTryCompileExec4027066748.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4027066748.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wno-unused-value   -Wno-unused-value -o CMakeFiles/cmTryCompileExec4027066748.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec4027066748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4027066748.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wno-unused-value    CMakeFiles/cmTryCompileExec4027066748.dir/src.cxx.o  -o cmTryCompileExec4027066748 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Wfloat-equal succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec570229048/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec570229048.dir/build.make CMakeFiles/cmTryCompileExec570229048.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec570229048.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTryCompileExec570229048.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec570229048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec570229048.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wfloat-equal    CMakeFiles/cmTryCompileExec570229048.dir/src.cxx.o  -o cmTryCompileExec570229048 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Wshadow succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1818249394/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1818249394.dir/build.make CMakeFiles/cmTryCompileExec1818249394.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1818249394.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wshadow   -Wshadow -o CMakeFiles/cmTryCompileExec1818249394.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec1818249394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1818249394.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wshadow    CMakeFiles/cmTryCompileExec1818249394.dir/src.cxx.o  -o cmTryCompileExec1818249394 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Winit-self succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec451394921/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec451394921.dir/build.make CMakeFiles/cmTryCompileExec451394921.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec451394921.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Winit-self   -Winit-self -o CMakeFiles/cmTryCompileExec451394921.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec451394921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec451394921.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Winit-self    CMakeFiles/cmTryCompileExec451394921.dir/src.cxx.o  -o cmTryCompileExec451394921 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Wswitch-default succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2318968650/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2318968650.dir/build.make CMakeFiles/cmTryCompileExec2318968650.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2318968650.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wswitch-default   -Wswitch-default -o CMakeFiles/cmTryCompileExec2318968650.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec2318968650
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2318968650.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wswitch-default    CMakeFiles/cmTryCompileExec2318968650.dir/src.cxx.o  -o cmTryCompileExec2318968650 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-Wmissing-include-dirs succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1954534610/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1954534610.dir/build.make CMakeFiles/cmTryCompileExec1954534610.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1954534610.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wmissing-include-dirs   -Wmissing-include-dirs -o CMakeFiles/cmTryCompileExec1954534610.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec1954534610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1954534610.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-Wmissing-include-dirs    CMakeFiles/cmTryCompileExec1954534610.dir/src.cxx.o  -o cmTryCompileExec1954534610 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-pedantic succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec559351063/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec559351063.dir/build.make CMakeFiles/cmTryCompileExec559351063.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec559351063.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-pedantic   -pedantic -o CMakeFiles/cmTryCompileExec559351063.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec559351063
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec559351063.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-pedantic    CMakeFiles/cmTryCompileExec559351063.dir/src.cxx.o  -o cmTryCompileExec559351063 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-fvisibility=hidden succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4082077686/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4082077686.dir/build.make CMakeFiles/cmTryCompileExec4082077686.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4082077686.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-fvisibility=hidden   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec4082077686.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec4082077686
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4082077686.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-fvisibility=hidden    CMakeFiles/cmTryCompileExec4082077686.dir/src.cxx.o  -o cmTryCompileExec4082077686 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test R-fvisibility-inlines-hidden succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3721552967/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3721552967.dir/build.make CMakeFiles/cmTryCompileExec3721552967.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3721552967.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-fvisibility-inlines-hidden   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec3721552967.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+Linking CXX executable cmTryCompileExec3721552967
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3721552967.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DR-fvisibility-inlines-hidden    CMakeFiles/cmTryCompileExec3721552967.dir/src.cxx.o  -o cmTryCompileExec3721552967 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAVE_ALLOCA succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2209693322/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2209693322.dir/build.make CMakeFiles/cmTryCompileExec2209693322.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2209693322.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ALLOCA   -o CMakeFiles/cmTryCompileExec2209693322.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2209693322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2209693322.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ALLOCA    CMakeFiles/cmTryCompileExec2209693322.dir/src.cxx.o  -o cmTryCompileExec2209693322 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <alloca.h> 
+int main() {alloca(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_ATAN2F succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3344092986/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3344092986.dir/build.make CMakeFiles/cmTryCompileExec3344092986.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3344092986.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ATAN2F   -o CMakeFiles/cmTryCompileExec3344092986.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3344092986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3344092986.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ATAN2F    CMakeFiles/cmTryCompileExec3344092986.dir/src.cxx.o  -o cmTryCompileExec3344092986 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {atan2f(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_COPYSIGN succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec82516245/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec82516245.dir/build.make CMakeFiles/cmTryCompileExec82516245.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec82516245.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_COPYSIGN   -o CMakeFiles/cmTryCompileExec82516245.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec82516245
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec82516245.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_COPYSIGN    CMakeFiles/cmTryCompileExec82516245.dir/src.cxx.o  -o cmTryCompileExec82516245 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {copysign(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_COPYSIGNF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3970075226/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3970075226.dir/build.make CMakeFiles/cmTryCompileExec3970075226.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3970075226.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_COPYSIGNF   -o CMakeFiles/cmTryCompileExec3970075226.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3970075226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3970075226.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_COPYSIGNF    CMakeFiles/cmTryCompileExec3970075226.dir/src.cxx.o  -o cmTryCompileExec3970075226 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {copysignf(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_COSF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2867379645/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2867379645.dir/build.make CMakeFiles/cmTryCompileExec2867379645.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2867379645.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_COSF   -o CMakeFiles/cmTryCompileExec2867379645.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2867379645
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2867379645.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_COSF    CMakeFiles/cmTryCompileExec2867379645.dir/src.cxx.o  -o cmTryCompileExec2867379645 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {cosf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_FABSF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec274709839/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec274709839.dir/build.make CMakeFiles/cmTryCompileExec274709839.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec274709839.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_FABSF   -o CMakeFiles/cmTryCompileExec274709839.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec274709839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec274709839.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_FABSF    CMakeFiles/cmTryCompileExec274709839.dir/src.cxx.o  -o cmTryCompileExec274709839 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {fabsf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_FLOOR succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec987586538/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec987586538.dir/build.make CMakeFiles/cmTryCompileExec987586538.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec987586538.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_FLOOR   -o CMakeFiles/cmTryCompileExec987586538.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec987586538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec987586538.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_FLOOR    CMakeFiles/cmTryCompileExec987586538.dir/src.cxx.o  -o cmTryCompileExec987586538 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {floor(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_FMODF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec242773070/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec242773070.dir/build.make CMakeFiles/cmTryCompileExec242773070.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec242773070.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_FMODF   -o CMakeFiles/cmTryCompileExec242773070.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec242773070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec242773070.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_FMODF    CMakeFiles/cmTryCompileExec242773070.dir/src.cxx.o  -o cmTryCompileExec242773070 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {fmodf(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_GETTIMEOFDAY succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1076650285/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1076650285.dir/build.make CMakeFiles/cmTryCompileExec1076650285.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1076650285.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_GETTIMEOFDAY   -o CMakeFiles/cmTryCompileExec1076650285.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:29: 警告：实参为 NULL，需要非 NULL 值(实参 1) [-Wnonnull]
+Linking CXX executable cmTryCompileExec1076650285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1076650285.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_GETTIMEOFDAY    CMakeFiles/cmTryCompileExec1076650285.dir/src.cxx.o  -o cmTryCompileExec1076650285 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/time.h> 
+int main() {gettimeofday(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_ISNAN succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec412046569/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec412046569.dir/build.make CMakeFiles/cmTryCompileExec412046569.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec412046569.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ISNAN   -o CMakeFiles/cmTryCompileExec412046569.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec412046569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec412046569.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ISNAN    CMakeFiles/cmTryCompileExec412046569.dir/src.cxx.o  -o cmTryCompileExec412046569 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {isnan(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_ISNANF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec568819869/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec568819869.dir/build.make CMakeFiles/cmTryCompileExec568819869.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec568819869.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ISNANF   -o CMakeFiles/cmTryCompileExec568819869.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec568819869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec568819869.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_ISNANF    CMakeFiles/cmTryCompileExec568819869.dir/src.cxx.o  -o cmTryCompileExec568819869 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {isnanf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_MALLOC succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3620174092/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3620174092.dir/build.make CMakeFiles/cmTryCompileExec3620174092.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3620174092.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_MALLOC   -o CMakeFiles/cmTryCompileExec3620174092.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:22: 警告：忽略声明有 warn_unused_result 属性的‘void* malloc(size_t)’的返回值 [-Wunused-result]
+Linking CXX executable cmTryCompileExec3620174092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3620174092.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_MALLOC    CMakeFiles/cmTryCompileExec3620174092.dir/src.cxx.o  -o cmTryCompileExec3620174092 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdlib.h> 
+int main() {malloc(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_MEMMOVE succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1034829295/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1034829295.dir/build.make CMakeFiles/cmTryCompileExec1034829295.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1034829295.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_MEMMOVE   -o CMakeFiles/cmTryCompileExec1034829295.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:26: 警告：实参为 NULL，需要非 NULL 值(实参 1) [-Wnonnull]
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:26: 警告：实参为 NULL，需要非 NULL 值(实参 2) [-Wnonnull]
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:26: 警告：实参为 NULL，需要非 NULL 值(实参 1) [-Wnonnull]
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:26: 警告：实参为 NULL，需要非 NULL 值(实参 2) [-Wnonnull]
+Linking CXX executable cmTryCompileExec1034829295
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1034829295.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_MEMMOVE    CMakeFiles/cmTryCompileExec1034829295.dir/src.cxx.o  -o cmTryCompileExec1034829295 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <string.h> 
+int main() {memmove(0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_MEMSET succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2836143232/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2836143232.dir/build.make CMakeFiles/cmTryCompileExec2836143232.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2836143232.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_MEMSET   -o CMakeFiles/cmTryCompileExec2836143232.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:25: 警告：实参为 NULL，需要非 NULL 值(实参 1) [-Wnonnull]
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:25: 警告：实参为 NULL，需要非 NULL 值(实参 1) [-Wnonnull]
+Linking CXX executable cmTryCompileExec2836143232
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2836143232.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_MEMSET    CMakeFiles/cmTryCompileExec2836143232.dir/src.cxx.o  -o cmTryCompileExec2836143232 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <string.h> 
+int main() {memset(0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_REALLOC succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2058078936/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2058078936.dir/build.make CMakeFiles/cmTryCompileExec2058078936.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2058078936.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_REALLOC   -o CMakeFiles/cmTryCompileExec2058078936.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:25: 警告：忽略声明有 warn_unused_result 属性的‘void* realloc(void*, size_t)’的返回值 [-Wunused-result]
+Linking CXX executable cmTryCompileExec2058078936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2058078936.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_REALLOC    CMakeFiles/cmTryCompileExec2058078936.dir/src.cxx.o  -o cmTryCompileExec2058078936 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdlib.h> 
+int main() {realloc(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SELECT succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3777723441/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3777723441.dir/build.make CMakeFiles/cmTryCompileExec3777723441.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3777723441.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SELECT   -o CMakeFiles/cmTryCompileExec3777723441.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3777723441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3777723441.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SELECT    CMakeFiles/cmTryCompileExec3777723441.dir/src.cxx.o  -o cmTryCompileExec3777723441 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/select.h> 
+int main() {select(0,0,0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SINF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2807146610/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2807146610.dir/build.make CMakeFiles/cmTryCompileExec2807146610.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2807146610.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SINF   -o CMakeFiles/cmTryCompileExec2807146610.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2807146610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2807146610.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SINF    CMakeFiles/cmTryCompileExec2807146610.dir/src.cxx.o  -o cmTryCompileExec2807146610 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {sinf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SPRINTF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1800755825/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1800755825.dir/build.make CMakeFiles/cmTryCompileExec1800755825.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1800755825.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SPRINTF   -o CMakeFiles/cmTryCompileExec1800755825.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:24: 警告：实参为 NULL，需要非 NULL 值(实参 2) [-Wnonnull]
+Linking CXX executable cmTryCompileExec1800755825
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1800755825.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SPRINTF    CMakeFiles/cmTryCompileExec1800755825.dir/src.cxx.o  -o cmTryCompileExec1800755825 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdio.h> 
+int main() {sprintf(0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SQRT succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1452755346/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1452755346.dir/build.make CMakeFiles/cmTryCompileExec1452755346.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1452755346.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SQRT   -o CMakeFiles/cmTryCompileExec1452755346.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1452755346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1452755346.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SQRT    CMakeFiles/cmTryCompileExec1452755346.dir/src.cxx.o  -o cmTryCompileExec1452755346 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {sqrt(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SQRTF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec434128976/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec434128976.dir/build.make CMakeFiles/cmTryCompileExec434128976.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec434128976.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SQRTF   -o CMakeFiles/cmTryCompileExec434128976.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec434128976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec434128976.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SQRTF    CMakeFiles/cmTryCompileExec434128976.dir/src.cxx.o  -o cmTryCompileExec434128976 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h> 
+int main() {sqrtf(0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_VPRINTF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1516447498/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1516447498.dir/build.make CMakeFiles/cmTryCompileExec1516447498.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1516447498.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_VPRINTF   -o CMakeFiles/cmTryCompileExec1516447498.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:3:37: 警告：实参为 NULL，需要非 NULL 值(实参 1) [-Wnonnull]
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:3:37: 警告：提供给格式字符串的实参太多 [-Wformat-extra-args]
+Linking CXX executable cmTryCompileExec1516447498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1516447498.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_VPRINTF    CMakeFiles/cmTryCompileExec1516447498.dir/src.cxx.o  -o cmTryCompileExec1516447498 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdarg.h> 
+#include <stdio.h>
+int main() {va_list ap; vprintf(0,ap); return 1;}
+Performing C++ SOURCE FILE Test HAVE_VSNPRINTF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec767991103/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec767991103.dir/build.make CMakeFiles/cmTryCompileExec767991103.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec767991103.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_VSNPRINTF   -o CMakeFiles/cmTryCompileExec767991103.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:3:43: 警告：实参为 NULL，需要非 NULL 值(实参 3) [-Wnonnull]
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:3:43: 警告：提供给格式字符串的实参太多 [-Wformat-extra-args]
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:3:43: 警告：提供给格式字符串的实参太多 [-Wformat-extra-args]
+Linking CXX executable cmTryCompileExec767991103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec767991103.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_VSNPRINTF    CMakeFiles/cmTryCompileExec767991103.dir/src.cxx.o  -o cmTryCompileExec767991103 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdarg.h> 
+#include <stdio.h>
+int main() {va_list ap; vsnprintf(0,0,0,ap); return 1;}
+Performing C++ SOURCE FILE Test HAVE_SNPRINTF succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1137007352/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1137007352.dir/build.make CMakeFiles/cmTryCompileExec1137007352.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1137007352.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SNPRINTF   -o CMakeFiles/cmTryCompileExec1137007352.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx: 在函数‘int main()’中:
+/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx:2:27: 警告：实参为 NULL，需要非 NULL 值(实参 3) [-Wnonnull]
+Linking CXX executable cmTryCompileExec1137007352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1137007352.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SNPRINTF    CMakeFiles/cmTryCompileExec1137007352.dir/src.cxx.o  -o cmTryCompileExec1137007352 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdio.h> 
+int main() {snprintf(0,0,0); return 1;}
+Performing C++ SOURCE FILE Test HAVE_LIMITS succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3322559537/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3322559537.dir/build.make CMakeFiles/cmTryCompileExec3322559537.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3322559537.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_LIMITS   -o CMakeFiles/cmTryCompileExec3322559537.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3322559537
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3322559537.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_LIMITS    CMakeFiles/cmTryCompileExec3322559537.dir/src.cxx.o  -o cmTryCompileExec3322559537 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <limits> 
+int main() {return 1;}
+Performing C++ SOURCE FILE Test HAVE_BOOST_SHARED_ARRAY_HPP succeded with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3585700850/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3585700850.dir/build.make CMakeFiles/cmTryCompileExec3585700850.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3585700850.dir/src.cxx.o
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_BOOST_SHARED_ARRAY_HPP   -o CMakeFiles/cmTryCompileExec3585700850.dir/src.cxx.o -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3585700850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3585700850.dir/link.txt --verbose=1
+/usr/bin/c++    -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2   -Wall -Wextra -Wno-long-long -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_BOOST_SHARED_ARRAY_HPP    CMakeFiles/cmTryCompileExec3585700850.dir/src.cxx.o  -o cmTryCompileExec3585700850 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <boost/shared_array.hpp> 
+int main() {return 1;}
+Determining if files alloca.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec409592282/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec409592282.dir/build.make CMakeFiles/cmTryCompileExec409592282.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec409592282.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec409592282.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec409592282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec409592282.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec409592282.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec409592282 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2223348654/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2223348654.dir/build.make CMakeFiles/cmTryCompileExec2223348654.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2223348654.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec2223348654.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2223348654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2223348654.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec2223348654.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2223348654 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files float.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1170073273/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1170073273.dir/build.make CMakeFiles/cmTryCompileExec1170073273.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1170073273.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec1170073273.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1170073273
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1170073273.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec1170073273.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1170073273 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2366135740/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2366135740.dir/build.make CMakeFiles/cmTryCompileExec2366135740.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2366135740.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec2366135740.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2366135740
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2366135740.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec2366135740.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2366135740 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec849854534/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec849854534.dir/build.make CMakeFiles/cmTryCompileExec849854534.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec849854534.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec849854534.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec849854534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec849854534.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec849854534.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec849854534 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files math.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2009954534/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2009954534.dir/build.make CMakeFiles/cmTryCompileExec2009954534.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2009954534.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec2009954534.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2009954534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2009954534.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec2009954534.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2009954534 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2188497166/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2188497166.dir/build.make CMakeFiles/cmTryCompileExec2188497166.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2188497166.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec2188497166.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2188497166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2188497166.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec2188497166.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2188497166 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1001638494/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1001638494.dir/build.make CMakeFiles/cmTryCompileExec1001638494.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1001638494.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec1001638494.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1001638494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1001638494.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec1001638494.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1001638494 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec991322985/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec991322985.dir/build.make CMakeFiles/cmTryCompileExec991322985.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec991322985.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec991322985.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec991322985
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec991322985.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec991322985.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec991322985 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2672202977/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2672202977.dir/build.make CMakeFiles/cmTryCompileExec2672202977.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2672202977.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec2672202977.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2672202977
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2672202977.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec2672202977.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2672202977 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2851336610/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2851336610.dir/build.make CMakeFiles/cmTryCompileExec2851336610.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2851336610.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec2851336610.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2851336610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2851336610.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec2851336610.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2851336610 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1907960697/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1907960697.dir/build.make CMakeFiles/cmTryCompileExec1907960697.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1907960697.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec1907960697.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1907960697
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1907960697.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec1907960697.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1907960697 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1161396286/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1161396286.dir/build.make CMakeFiles/cmTryCompileExec1161396286.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1161396286.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec1161396286.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1161396286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1161396286.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec1161396286.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1161396286 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4172282170/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4172282170.dir/build.make CMakeFiles/cmTryCompileExec4172282170.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4172282170.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec4172282170.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4172282170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4172282170.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec4172282170.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4172282170 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2813541376/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2813541376.dir/build.make CMakeFiles/cmTryCompileExec2813541376.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2813541376.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec2813541376.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2813541376
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2813541376.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec2813541376.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2813541376 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec573206315/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec573206315.dir/build.make CMakeFiles/cmTryCompileExec573206315.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec573206315.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec573206315.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec573206315
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec573206315.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec573206315.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec573206315 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec301601553/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec301601553.dir/build.make CMakeFiles/cmTryCompileExec301601553.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec301601553.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec301601553.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec301601553
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec301601553.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec301601553.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec301601553 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1988160993/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1988160993.dir/build.make CMakeFiles/cmTryCompileExec1988160993.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1988160993.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec1988160993.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1988160993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1988160993.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec1988160993.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1988160993 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4163682163/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4163682163.dir/build.make CMakeFiles/cmTryCompileExec4163682163.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4163682163.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec4163682163.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4163682163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4163682163.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec4163682163.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4163682163 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3813949356/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3813949356.dir/build.make CMakeFiles/cmTryCompileExec3813949356.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3813949356.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec3813949356.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3813949356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3813949356.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec3813949356.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3813949356 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec479392542/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec479392542.dir/build.make CMakeFiles/cmTryCompileExec479392542.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec479392542.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec479392542.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec479392542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec479392542.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec479392542.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec479392542 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files obstack.h exist passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3032929666/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3032929666.dir/build.make CMakeFiles/cmTryCompileExec3032929666.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3032929666.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2     -o CMakeFiles/cmTryCompileExec3032929666.dir/CheckIncludeFiles.c.o   -c /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3032929666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3032929666.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2      CMakeFiles/cmTryCompileExec3032929666.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3032929666 -rdynamic 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cos exists in the m passed with the following output:
+Change Dir: /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3165358888/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3165358888.dir/build.make CMakeFiles/cmTryCompileExec3165358888.dir/build
+gmake[1]: Entering directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3165358888.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTryCompileExec3165358888.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3:6: 警告：与内建函数‘cos’类型冲突 [默认启用]
+Linking C executable cmTryCompileExec3165358888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3165358888.dir/link.txt --verbose=1
+/usr/bin/cc   -g -O2 -mssse3 -msse3 -mfpmath=sse -msse -msse2  -DCHECK_FUNCTION_EXISTS=cos    CMakeFiles/cmTryCompileExec3165358888.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3165358888 -rdynamic -lm 
+gmake[1]: Leaving directory '/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/CMakeFiles/CMakeTmp'
+
+
