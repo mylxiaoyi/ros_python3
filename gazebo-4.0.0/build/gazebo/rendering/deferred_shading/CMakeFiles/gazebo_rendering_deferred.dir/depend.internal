@@ -30,7 +30,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
  /usr/include/OGRE/OgreAnimationTrack.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAutoParamDataSource.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
@@ -51,9 +51,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
  /usr/include/OGRE/OgreGpuProgramParams.h
  /usr/include/OGRE/OgreHardwareBuffer.h
  /usr/include/OGRE/OgreHardwareBufferManager.h
- /usr/include/OGRE/OgreHardwareCounterBuffer.h
  /usr/include/OGRE/OgreHardwareIndexBuffer.h
- /usr/include/OGRE/OgreHardwareUniformBuffer.h
  /usr/include/OGRE/OgreHardwareVertexBuffer.h
  /usr/include/OGRE/OgreHeaderPrefix.h
  /usr/include/OGRE/OgreHeaderSuffix.h
@@ -87,14 +85,12 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
  /usr/include/OGRE/OgreMesh.h
  /usr/include/OGRE/OgreMovableObject.h
  /usr/include/OGRE/OgreMovablePlane.h
- /usr/include/OGRE/OgreNameGenerator.h
  /usr/include/OGRE/OgreNode.h
  /usr/include/OGRE/OgrePass.h
  /usr/include/OGRE/OgrePixelFormat.h
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePose.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
@@ -147,14 +143,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/OgreViewport.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o
  ../gazebo/rendering/deferred_shading/GBufferMaterialGenerator.hh
  ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
@@ -164,7 +154,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
  /usr/include/OGRE/OgreAnimable.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
  /usr/include/OGRE/OgreBuildSettings.h
@@ -211,7 +201,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
  /usr/include/OGRE/OgreRenderOperation.h
@@ -242,14 +231,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
  /usr/include/OGRE/OgreVector4.h
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o
  ../gazebo/common/Exception.hh
  ../gazebo/rendering/deferred_shading/GBufferMaterialGenerator.hh
@@ -261,7 +244,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
  /usr/include/OGRE/OgreAnimable.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
  /usr/include/OGRE/OgreBuildSettings.h
@@ -305,7 +288,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
  /usr/include/OGRE/OgreRenderOperation.h
@@ -336,14 +318,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
  /usr/include/OGRE/OgreVector4.h
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o
  ../gazebo/common/CommonTypes.hh
  ../gazebo/common/Console.hh
@@ -358,7 +334,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
  /usr/include/OGRE/OgreAnimationTrack.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
  /usr/include/OGRE/OgreBuildSettings.h
@@ -368,12 +344,9 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
  /usr/include/OGRE/OgreController.h
  /usr/include/OGRE/OgreDataStream.h
  /usr/include/OGRE/OgreException.h
- /usr/include/OGRE/OgreGpuProgramParams.h
  /usr/include/OGRE/OgreHardwareBuffer.h
  /usr/include/OGRE/OgreHardwareBufferManager.h
- /usr/include/OGRE/OgreHardwareCounterBuffer.h
  /usr/include/OGRE/OgreHardwareIndexBuffer.h
- /usr/include/OGRE/OgreHardwareUniformBuffer.h
  /usr/include/OGRE/OgreHardwareVertexBuffer.h
  /usr/include/OGRE/OgreHeaderPrefix.h
  /usr/include/OGRE/OgreHeaderSuffix.h
@@ -398,7 +371,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
  /usr/include/OGRE/OgrePatchSurface.h
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePose.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
@@ -409,7 +381,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
  /usr/include/OGRE/OgreResourceManager.h
  /usr/include/OGRE/OgreRotationalSpline.h
  /usr/include/OGRE/OgreScriptLoader.h
- /usr/include/OGRE/OgreSerializer.h
  /usr/include/OGRE/OgreSharedPtr.h
  /usr/include/OGRE/OgreSimpleSpline.h
  /usr/include/OGRE/OgreSingleton.h
@@ -425,14 +396,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
  /usr/include/OGRE/OgreVertexBoneAssignment.h
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o
  ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
  ../gazebo/util/system.hh
@@ -441,7 +406,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Mater
  /usr/include/OGRE/OgreAnimable.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
  /usr/include/OGRE/OgreBuildSettings.h
@@ -487,7 +452,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Mater
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
  /usr/include/OGRE/OgreRenderOperation.h
@@ -518,14 +482,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Mater
  /usr/include/OGRE/OgreVector4.h
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o
  ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
  ../gazebo/rendering/deferred_shading/MergeMaterialGenerator.hh
@@ -535,7 +493,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
  /usr/include/OGRE/OgreAnimable.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
  /usr/include/OGRE/OgreBuildSettings.h
@@ -582,7 +540,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
  /usr/include/OGRE/OgreRenderOperation.h
@@ -613,14 +570,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
  /usr/include/OGRE/OgreVector4.h
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o
  ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
  ../gazebo/rendering/deferred_shading/MergeMaterialGenerator.hh
@@ -631,7 +582,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
  /usr/include/OGRE/OgreAnimable.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
  /usr/include/OGRE/OgreBuildSettings.h
@@ -675,7 +626,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
  /usr/include/OGRE/OgreRenderOperation.h
@@ -706,14 +656,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
  /usr/include/OGRE/OgreVector4.h
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o
  ../gazebo/rendering/deferred_shading/ListenerFactoryLogic.hh
  ../gazebo/rendering/deferred_shading/SSAOLogic.hh
@@ -729,7 +673,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
  /usr/include/OGRE/OgreArchiveManager.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAutoParamDataSource.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBillboard.h
@@ -767,11 +711,9 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
  /usr/include/OGRE/OgreGpuProgramParams.h
  /usr/include/OGRE/OgreHardwareBuffer.h
  /usr/include/OGRE/OgreHardwareBufferManager.h
- /usr/include/OGRE/OgreHardwareCounterBuffer.h
  /usr/include/OGRE/OgreHardwareIndexBuffer.h
  /usr/include/OGRE/OgreHardwareOcclusionQuery.h
  /usr/include/OGRE/OgreHardwarePixelBuffer.h
- /usr/include/OGRE/OgreHardwareUniformBuffer.h
  /usr/include/OGRE/OgreHardwareVertexBuffer.h
  /usr/include/OGRE/OgreHeaderPrefix.h
  /usr/include/OGRE/OgreHeaderSuffix.h
@@ -812,8 +754,12 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
  /usr/include/OGRE/OgreMeshSerializerImpl.h
  /usr/include/OGRE/OgreMovableObject.h
  /usr/include/OGRE/OgreMovablePlane.h
- /usr/include/OGRE/OgreNameGenerator.h
  /usr/include/OGRE/OgreNode.h
+ /usr/include/OGRE/OgreOverlay.h
+ /usr/include/OGRE/OgreOverlayContainer.h
+ /usr/include/OGRE/OgreOverlayElement.h
+ /usr/include/OGRE/OgreOverlayElementCommands.h
+ /usr/include/OGRE/OgreOverlayManager.h
  /usr/include/OGRE/OgreParticle.h
  /usr/include/OGRE/OgreParticleAffector.h
  /usr/include/OGRE/OgreParticleEmitter.h
@@ -828,7 +774,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePolygon.h
  /usr/include/OGRE/OgrePose.h
  /usr/include/OGRE/OgrePredefinedControllers.h
@@ -837,6 +782,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
  /usr/include/OGRE/OgreQuaternion.h
  /usr/include/OGRE/OgreRadixSort.h
  /usr/include/OGRE/OgreRay.h
+ /usr/include/OGRE/OgreRectangle.h
  /usr/include/OGRE/OgreRectangle2D.h
  /usr/include/OGRE/OgreRenderObjectListener.h
  /usr/include/OGRE/OgreRenderOperation.h
@@ -894,6 +840,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
  /usr/include/OGRE/OgreTextureManager.h
  /usr/include/OGRE/OgreTextureUnitState.h
  /usr/include/OGRE/OgreTimer.h
+ /usr/include/OGRE/OgreUTFString.h
  /usr/include/OGRE/OgreUserObjectBindings.h
  /usr/include/OGRE/OgreVector2.h
  /usr/include/OGRE/OgreVector3.h
@@ -904,11 +851,5 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
  /usr/include/OGRE/OgreWindowEventUtilities.h
  /usr/include/OGRE/OgreWorkQueue.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h

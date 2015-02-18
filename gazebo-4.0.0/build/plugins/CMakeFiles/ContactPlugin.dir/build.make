@@ -113,6 +113,7 @@ plugins/libContactPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libContactPlugin.so: /usr/lib64/libtar.so
 plugins/libContactPlugin.so: /usr/lib64/libsdformat.so
 plugins/libContactPlugin.so: /usr/lib64/libopenal.so
+plugins/libContactPlugin.so: /usr/lib64/libgdal.so
 plugins/libContactPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libContactPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libContactPlugin.so: /usr/lib64/libboost_thread-mt.so

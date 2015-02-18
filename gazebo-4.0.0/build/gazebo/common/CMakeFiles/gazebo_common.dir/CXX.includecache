@@ -147,7 +147,7 @@ gazebo/gazebo_config.h
 -
 gazebo/util/system.hh
 -
-gdal/gdal_priv.h
+gdal_priv.h
 -
 string
 -
@@ -165,7 +165,7 @@ gazebo/gazebo_config.h
 -
 gazebo/util/system.hh
 -
-gdal/gdal_priv.h
+gdal_priv.h
 -
 vector
 -
@@ -793,7 +793,7 @@ boost/filesystem.hpp
 -
 gazebo/gazebo_config.h
 -
-gdal/ogr_spatialref.h
+ogr_spatialref.h
 -
 gazebo/common/CommonIface.hh
 /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/gazebo/common/gazebo/common/CommonIface.hh

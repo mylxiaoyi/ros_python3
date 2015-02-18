@@ -113,6 +113,7 @@ plugins/libVehiclePlugin.so: /usr/lib64/libtinyxml.so
 plugins/libVehiclePlugin.so: /usr/lib64/libtar.so
 plugins/libVehiclePlugin.so: /usr/lib64/libsdformat.so
 plugins/libVehiclePlugin.so: /usr/lib64/libopenal.so
+plugins/libVehiclePlugin.so: /usr/lib64/libgdal.so
 plugins/libVehiclePlugin.so: /usr/lib64/libprotobuf.so
 plugins/libVehiclePlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libVehiclePlugin.so: /usr/lib64/libboost_thread-mt.so

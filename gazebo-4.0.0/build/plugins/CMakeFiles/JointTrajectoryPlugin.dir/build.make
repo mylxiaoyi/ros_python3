@@ -113,6 +113,7 @@ plugins/libJointTrajectoryPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libJointTrajectoryPlugin.so: /usr/lib64/libtar.so
 plugins/libJointTrajectoryPlugin.so: /usr/lib64/libsdformat.so
 plugins/libJointTrajectoryPlugin.so: /usr/lib64/libopenal.so
+plugins/libJointTrajectoryPlugin.so: /usr/lib64/libgdal.so
 plugins/libJointTrajectoryPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libJointTrajectoryPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libJointTrajectoryPlugin.so: /usr/lib64/libboost_thread-mt.so

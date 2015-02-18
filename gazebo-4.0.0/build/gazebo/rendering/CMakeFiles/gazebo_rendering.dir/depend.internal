@@ -4091,7 +4091,7 @@ gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o
  /usr/include/OGRE/OgreAnimationTrack.h
  /usr/include/OGRE/OgreAny.h
  /usr/include/OGRE/OgreArchive.h
- /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAtomicWrappers.h
  /usr/include/OGRE/OgreAxisAlignedBox.h
  /usr/include/OGRE/OgreBlendMode.h
  /usr/include/OGRE/OgreBuildSettings.h
@@ -4150,7 +4150,6 @@ gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o
  /usr/include/OGRE/OgrePlane.h
  /usr/include/OGRE/OgrePlaneBoundedVolume.h
  /usr/include/OGRE/OgrePlatform.h
- /usr/include/OGRE/OgrePlatformInformation.h
  /usr/include/OGRE/OgrePose.h
  /usr/include/OGRE/OgrePrerequisites.h
  /usr/include/OGRE/OgreQuaternion.h
@@ -4193,14 +4192,8 @@ gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o
  /usr/include/OGRE/OgreVertexIndexData.h
  /usr/include/OGRE/OgreViewport.h
  /usr/include/OGRE/Threading/OgreThreadDefines.h
- /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
  /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
- /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
- /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
  /usr/include/OGRE/Threading/OgreThreadHeaders.h
- /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
- /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
- /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
  /usr/include/sdformat-2.0/sdf/Assert.hh
  /usr/include/sdformat-2.0/sdf/Console.hh
  /usr/include/sdformat-2.0/sdf/Converter.hh

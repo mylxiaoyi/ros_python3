@@ -874,6 +874,7 @@ gazebo/common/libgazebo_common.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/common/libgazebo_common.so.4.0.0: /usr/lib64/libtar.so
 gazebo/common/libgazebo_common.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/common/libgazebo_common.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/common/libgazebo_common.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/common/libgazebo_common.so.4.0.0: gazebo/common/CMakeFiles/gazebo_common.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libgazebo_common.so"
 	cd /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/gazebo/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_common.dir/link.txt --verbose=$(VERBOSE)

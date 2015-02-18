@@ -147,7 +147,7 @@ namespace SkyX
       return;
     }
 
-    if (!equal(mTimeMultiplier, 0.0))
+    if (!equal((double)mTimeMultiplier, 0.0))
     {
       float timemultiplied = timeSinceLastFrame * mTimeMultiplier;
 

@@ -113,6 +113,7 @@ plugins/libRayPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libRayPlugin.so: /usr/lib64/libtar.so
 plugins/libRayPlugin.so: /usr/lib64/libsdformat.so
 plugins/libRayPlugin.so: /usr/lib64/libopenal.so
+plugins/libRayPlugin.so: /usr/lib64/libgdal.so
 plugins/libRayPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libRayPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libRayPlugin.so: /usr/lib64/libboost_thread-mt.so

@@ -121,6 +121,7 @@ test/integration/INTEGRATION_physics_basic_controller_response: /usr/lib64/libti
 test/integration/INTEGRATION_physics_basic_controller_response: /usr/lib64/libtar.so
 test/integration/INTEGRATION_physics_basic_controller_response: /usr/lib64/libsdformat.so
 test/integration/INTEGRATION_physics_basic_controller_response: /usr/lib64/libopenal.so
+test/integration/INTEGRATION_physics_basic_controller_response: /usr/lib64/libgdal.so
 test/integration/INTEGRATION_physics_basic_controller_response: gazebo/math/libgazebo_math.so.4.0.0
 test/integration/INTEGRATION_physics_basic_controller_response: /usr/lib64/libprotobuf.so
 test/integration/INTEGRATION_physics_basic_controller_response: /usr/lib64/libboost_thread-mt.so

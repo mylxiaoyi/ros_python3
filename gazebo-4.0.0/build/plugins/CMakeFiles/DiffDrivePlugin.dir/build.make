@@ -113,6 +113,7 @@ plugins/libDiffDrivePlugin.so: /usr/lib64/libtinyxml.so
 plugins/libDiffDrivePlugin.so: /usr/lib64/libtar.so
 plugins/libDiffDrivePlugin.so: /usr/lib64/libsdformat.so
 plugins/libDiffDrivePlugin.so: /usr/lib64/libopenal.so
+plugins/libDiffDrivePlugin.so: /usr/lib64/libgdal.so
 plugins/libDiffDrivePlugin.so: /usr/lib64/libprotobuf.so
 plugins/libDiffDrivePlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libDiffDrivePlugin.so: /usr/lib64/libboost_thread-mt.so

@@ -164,6 +164,7 @@ gazebo/libgazebo.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/libgazebo.so.4.0.0: /usr/lib64/libtar.so
 gazebo/libgazebo.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/libgazebo.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/libgazebo.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/libgazebo.so.4.0.0: /usr/lib64/libGLU.so
 gazebo/libgazebo.so.4.0.0: /usr/lib64/libGL.so
 gazebo/libgazebo.so.4.0.0: /usr/lib64/libSM.so

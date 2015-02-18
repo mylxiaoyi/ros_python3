@@ -121,6 +121,7 @@ test/regression/REGRESSION_1112_force_torque_model_removal: /usr/lib64/libtinyxm
 test/regression/REGRESSION_1112_force_torque_model_removal: /usr/lib64/libtar.so
 test/regression/REGRESSION_1112_force_torque_model_removal: /usr/lib64/libsdformat.so
 test/regression/REGRESSION_1112_force_torque_model_removal: /usr/lib64/libopenal.so
+test/regression/REGRESSION_1112_force_torque_model_removal: /usr/lib64/libgdal.so
 test/regression/REGRESSION_1112_force_torque_model_removal: gazebo/math/libgazebo_math.so.4.0.0
 test/regression/REGRESSION_1112_force_torque_model_removal: /usr/lib64/libprotobuf.so
 test/regression/REGRESSION_1112_force_torque_model_removal: /usr/lib64/libboost_thread-mt.so

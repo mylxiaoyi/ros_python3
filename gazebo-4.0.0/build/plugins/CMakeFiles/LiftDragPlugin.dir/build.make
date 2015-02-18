@@ -113,6 +113,7 @@ plugins/libLiftDragPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libLiftDragPlugin.so: /usr/lib64/libtar.so
 plugins/libLiftDragPlugin.so: /usr/lib64/libsdformat.so
 plugins/libLiftDragPlugin.so: /usr/lib64/libopenal.so
+plugins/libLiftDragPlugin.so: /usr/lib64/libgdal.so
 plugins/libLiftDragPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libLiftDragPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libLiftDragPlugin.so: /usr/lib64/libboost_thread-mt.so

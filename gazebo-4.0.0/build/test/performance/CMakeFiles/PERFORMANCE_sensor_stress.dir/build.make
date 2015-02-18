@@ -121,6 +121,7 @@ test/performance/PERFORMANCE_sensor_stress: /usr/lib64/libtinyxml.so
 test/performance/PERFORMANCE_sensor_stress: /usr/lib64/libtar.so
 test/performance/PERFORMANCE_sensor_stress: /usr/lib64/libsdformat.so
 test/performance/PERFORMANCE_sensor_stress: /usr/lib64/libopenal.so
+test/performance/PERFORMANCE_sensor_stress: /usr/lib64/libgdal.so
 test/performance/PERFORMANCE_sensor_stress: gazebo/math/libgazebo_math.so.4.0.0
 test/performance/PERFORMANCE_sensor_stress: /usr/lib64/libprotobuf.so
 test/performance/PERFORMANCE_sensor_stress: /usr/lib64/libboost_thread-mt.so

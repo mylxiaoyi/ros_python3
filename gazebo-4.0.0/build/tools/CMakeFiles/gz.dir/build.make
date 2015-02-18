@@ -187,6 +187,7 @@ tools/gz-4.0.0: /usr/lib64/libtinyxml.so
 tools/gz-4.0.0: /usr/lib64/libtar.so
 tools/gz-4.0.0: /usr/lib64/libsdformat.so
 tools/gz-4.0.0: /usr/lib64/libopenal.so
+tools/gz-4.0.0: /usr/lib64/libgdal.so
 tools/gz-4.0.0: gazebo/math/libgazebo_math.so.4.0.0
 tools/gz-4.0.0: /usr/lib64/libboost_thread-mt.so
 tools/gz-4.0.0: /usr/lib64/libboost_signals-mt.so

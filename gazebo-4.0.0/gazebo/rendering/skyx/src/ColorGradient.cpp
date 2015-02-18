@@ -95,7 +95,7 @@ namespace SkyX
 
     for (unsigned int k = 0; k < CFrameVector.size(); k++)
     {
-      if (equal(CFrameVector.at(k).second, 0.0))
+      if (equal(CFrameVector.at(k).second, (float)0.0))
       {
         // More than one min bound
         if (existbounds.first)
@@ -114,7 +114,7 @@ namespace SkyX
 
     for (unsigned int k = 0; k < CFrameVector.size(); k++)
     {
-      if (equal(CFrameVector.at(k).second, 1.0))
+      if (equal(CFrameVector.at(k).second, (float)1.0))
       {
         // More than one min bound
         if (existbounds.second)

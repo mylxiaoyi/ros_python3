@@ -113,6 +113,7 @@ plugins/libSkidSteerDrivePlugin.so: /usr/lib64/libtinyxml.so
 plugins/libSkidSteerDrivePlugin.so: /usr/lib64/libtar.so
 plugins/libSkidSteerDrivePlugin.so: /usr/lib64/libsdformat.so
 plugins/libSkidSteerDrivePlugin.so: /usr/lib64/libopenal.so
+plugins/libSkidSteerDrivePlugin.so: /usr/lib64/libgdal.so
 plugins/libSkidSteerDrivePlugin.so: /usr/lib64/libprotobuf.so
 plugins/libSkidSteerDrivePlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libSkidSteerDrivePlugin.so: /usr/lib64/libboost_thread-mt.so

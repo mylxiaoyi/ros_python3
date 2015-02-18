@@ -3393,6 +3393,7 @@ gazebo/msgs/libgazebo_msgs.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/msgs/libgazebo_msgs.so.4.0.0: /usr/lib64/libtar.so
 gazebo/msgs/libgazebo_msgs.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/msgs/libgazebo_msgs.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/msgs/libgazebo_msgs.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/msgs/libgazebo_msgs.so.4.0.0: gazebo/msgs/CMakeFiles/gazebo_msgs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libgazebo_msgs.so"
 	cd /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/gazebo/msgs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_msgs.dir/link.txt --verbose=$(VERBOSE)

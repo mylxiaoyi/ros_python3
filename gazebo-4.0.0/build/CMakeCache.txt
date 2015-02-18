@@ -72,7 +72,7 @@ Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib64/libboost_thread-mt.so
 Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib64/libboost_thread-mt.so
 
 //Dependencies for the target
-BreakableJointPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;general;ForceTorquePlugin;
+BreakableJointPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;ForceTorquePlugin;
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -262,13 +262,13 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Dependencies for the target
-CameraPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+CameraPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-CartDemoPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+CartDemoPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-ContactPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+ContactPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //The directory containing a CMake configuration file for DARTCore.
 DARTCore_DIR:PATH=DARTCore_DIR-NOTFOUND
@@ -283,25 +283,25 @@ DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
 DPKG_PROGRAM:FILEPATH=DPKG_PROGRAM-NOTFOUND
 
 //Dependencies for the target
-DepthCameraPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+DepthCameraPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-DiffDrivePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+DiffDrivePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-ForceTorqueModelRemovalTestPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+ForceTorqueModelRemovalTestPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-ForceTorquePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+ForceTorquePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Path to a program.
-GDAL_CONFIG:FILEPATH=GDAL_CONFIG-NOTFOUND
+GDAL_CONFIG:FILEPATH=/usr/bin/gdal-config
 
 //Path to a file.
-GDAL_INCLUDE_DIR:PATH=GDAL_INCLUDE_DIR-NOTFOUND
+GDAL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-GDAL_LIBRARY:FILEPATH=GDAL_LIBRARY-NOTFOUND
+GDAL_LIBRARY:FILEPATH=/usr/lib64/libgdal.so
 
 //Path to a program.
 GLXINFO:FILEPATH=/usr/bin/glxinfo
@@ -316,13 +316,13 @@ Gazebo_BINARY_DIR:STATIC=/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build
 Gazebo_SOURCE_DIR:STATIC=/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0
 
 //Dependencies for the target
-GpuRayPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+GpuRayPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //HAVE CEGUI
 HAVE_CEGUI:BOOL=OFF
 
 //HAVE GDAL
-HAVE_GDAL:BOOL=OFF
+HAVE_GDAL:BOOL=ON
 
 //HAVE OCULUS
 HAVE_OCULUS:BOOL=OFF
@@ -334,10 +334,10 @@ HAVE_OPENAL:BOOL=ON
 HAVE_USB:BOOL=ON
 
 //Dependencies for the target
-HydraDemoPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+HydraDemoPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-HydraPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+HydraPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Build gazebo plugin for player
 INCLUDE_PLAYER:BOOL=OFF
@@ -346,22 +346,22 @@ INCLUDE_PLAYER:BOOL=OFF
 INCLUDE_RTSHADER:BOOL=ON
 
 //Dependencies for the target
-Issue1208Plugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+Issue1208Plugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-JointTrajectoryPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+JointTrajectoryPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-LiftDragPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+LiftDragPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-ModelPropShop_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+ModelPropShop_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-ModelTrajectoryTestPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+ModelTrajectoryTestPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-MudPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+MudPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Path to a file.
 OPENAL_INCLUDE_DIR:PATH=/usr/include/AL
@@ -412,7 +412,7 @@ PROTOBUF_PROTOC_LIBRARY:FILEPATH=/usr/lib64/libprotoc.so
 PROTOBUF_PROTOC_LIBRARY_DEBUG:FILEPATH=/usr/lib64/libprotoc.so
 
 //Dependencies for the target
-PressurePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+PressurePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Path to a library.
 QT_ARTHURPLUGIN_PLUGIN_DEBUG:FILEPATH=QT_ARTHURPLUGIN_PLUGIN_DEBUG-NOTFOUND
@@ -1021,13 +1021,13 @@ RONN:FILEPATH=/usr/bin/ronn
 RPMBUILD_PROGRAM:FILEPATH=RPMBUILD_PROGRAM-NOTFOUND
 
 //Dependencies for the target
-RayPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+RayPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-RaySensorNoisePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+RaySensorNoisePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-RubblePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+RubblePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //The directory containing a CMake configuration file for SDFormat.
 SDFormat_DIR:PATH=/usr/lib64/cmake/sdformat
@@ -1051,22 +1051,22 @@ SSSE3_FOUND:BOOL=true
 Simbody_DIR:PATH=Simbody_DIR-NOTFOUND
 
 //Dependencies for the target
-SkidSteerDrivePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+SkidSteerDrivePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-SonarPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+SonarPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-SphereAtlasDemoPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+SphereAtlasDemoPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Dependencies for the target
-SpringTestPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+SpringTestPlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Path to a library.
 TCMALLOC:FILEPATH=TCMALLOC-NOTFOUND
 
 //Dependencies for the target
-VehiclePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;
+VehiclePlugin_LIB_DEPENDS:STATIC=general;libgazebo;general;gazebo_sensors;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;
 
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/include
@@ -1264,13 +1264,13 @@ gazebo_ccd_LIB_DEPENDS:STATIC=general;m;
 gazebo_cmake_dir:PATH=/home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/cmake
 
 //Dependencies for the target
-gazebo_common_LIB_DEPENDS:STATIC=general;gazebo_math;general;/usr/lib64/libdl.so;general;/usr/lib64/libboost_thread-mt.so;general;/usr/lib64/libboost_signals-mt.so;general;/usr/lib64/libboost_system-mt.so;general;/usr/lib64/libboost_filesystem-mt.so;general;/usr/lib64/libboost_program_options-mt.so;general;/usr/lib64/libboost_regex-mt.so;general;/usr/lib64/libboost_iostreams-mt.so;general;/usr/lib64/libboost_date_time-mt.so;general;/usr/lib64/libfreeimage.so;general;/usr/lib64/libtinyxml.so;general;avcodec;general;avformat;general;avutil;general;curl;general;swscale;general;/usr/lib64/libtar.so;general;tbb;general;/usr/lib64/libsdformat.so;general;pthread;general;rt;general;/usr/lib64/libopenal.so;
+gazebo_common_LIB_DEPENDS:STATIC=general;gazebo_math;general;/usr/lib64/libdl.so;general;/usr/lib64/libboost_thread-mt.so;general;/usr/lib64/libboost_signals-mt.so;general;/usr/lib64/libboost_system-mt.so;general;/usr/lib64/libboost_filesystem-mt.so;general;/usr/lib64/libboost_program_options-mt.so;general;/usr/lib64/libboost_regex-mt.so;general;/usr/lib64/libboost_iostreams-mt.so;general;/usr/lib64/libboost_date_time-mt.so;general;/usr/lib64/libfreeimage.so;general;/usr/lib64/libtinyxml.so;general;avcodec;general;avformat;general;avutil;general;curl;general;swscale;general;/usr/lib64/libtar.so;general;tbb;general;/usr/lib64/libsdformat.so;general;pthread;general;rt;general;/usr/lib64/libopenal.so;general;/usr/lib64/libgdal.so;
 
 //Dependencies for target
 gazebo_gimpact_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-gazebo_gui_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_transport;general;gazebo_rendering;general;gazebo_sensors;general;gazebo_msgs;general;gazebo_gui_building;general;gazebo_gui_model;general;gazebo_gui_terrain;general;gazebo_gui_viewers;general;gzqtpropertybrowser;general;libgazebo;general;/usr/lib64/qt4/libQtGui.so;general;/usr/lib64/qt4/libQtCore.so;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;general;/usr/lib64/libboost_thread-mt.so;general;/usr/lib64/libboost_signals-mt.so;general;/usr/lib64/libboost_system-mt.so;general;/usr/lib64/libboost_filesystem-mt.so;general;/usr/lib64/libboost_program_options-mt.so;general;/usr/lib64/libboost_regex-mt.so;general;/usr/lib64/libboost_iostreams-mt.so;general;/usr/lib64/libboost_date_time-mt.so;general;pthread;
+gazebo_gui_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_transport;general;gazebo_rendering;general;gazebo_sensors;general;gazebo_msgs;general;gazebo_gui_building;general;gazebo_gui_model;general;gazebo_gui_terrain;general;gazebo_gui_viewers;general;gzqtpropertybrowser;general;libgazebo;general;/usr/lib64/qt4/libQtGui.so;general;/usr/lib64/qt4/libQtCore.so;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;/usr/lib64/libboost_thread-mt.so;general;/usr/lib64/libboost_signals-mt.so;general;/usr/lib64/libboost_system-mt.so;general;/usr/lib64/libboost_filesystem-mt.so;general;/usr/lib64/libboost_program_options-mt.so;general;/usr/lib64/libboost_regex-mt.so;general;/usr/lib64/libboost_iostreams-mt.so;general;/usr/lib64/libboost_date_time-mt.so;general;pthread;
 
 //Dependencies for the target
 gazebo_gui_building_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_transport;general;gazebo_rendering;general;gazebo_msgs;general;/usr/lib64/qt4/libQtGui.so;general;/usr/lib64/qt4/libQtCore.so;
@@ -1300,22 +1300,22 @@ gazebo_opcode_LIB_DEPENDS:STATIC=
 gazebo_opende_ou_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-gazebo_physics_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_util;general;gazebo_physics_ode;
+gazebo_physics_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_util;general;gazebo_physics_ode;general;/usr/lib64/libgdal.so;
 
 //Dependencies for the target
 gazebo_physics_ode_LIB_DEPENDS:STATIC=general;gazebo_ode;general;gazebo_opcode;general;gazebo_math;general;gazebo_common;general;tbb;
 
 //Dependencies for the target
-gazebo_rendering_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_msgs;general;gazebo_skyx;general;gazebo_selection_buffer;general;gazebo_transport;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;general;X11;general;gazebo_rendering_deferred;
+gazebo_rendering_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_msgs;general;gazebo_skyx;general;gazebo_selection_buffer;general;gazebo_transport;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;general;X11;general;gazebo_rendering_deferred;
 
 //Dependencies for the target
-gazebo_rendering_deferred_LIB_DEPENDS:STATIC=general;gazebo_common;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;
+gazebo_rendering_deferred_LIB_DEPENDS:STATIC=general;gazebo_common;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;
 
 //Dependencies for the target
-gazebo_selection_buffer_LIB_DEPENDS:STATIC=general;gazebo_common;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;OgreOverlay;general;OgreMain;general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;
+gazebo_selection_buffer_LIB_DEPENDS:STATIC=general;gazebo_common;general;OgreRTShaderSystem;general;OgreMain;general;OgreMain;general;OgreTerrain;general;OgrePaging;general;OgreMain;general;/usr/lib64/libGLU.so;general;/usr/lib64/libGL.so;general;/usr/lib64/libSM.so;general;/usr/lib64/libICE.so;general;/usr/lib64/libX11.so;general;/usr/lib64/libXext.so;
 
 //Dependencies for the target
-gazebo_sensors_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_rendering;general;gazebo_physics;general;/usr/lib64/libboost_thread-mt.so;general;/usr/lib64/libboost_signals-mt.so;general;/usr/lib64/libboost_system-mt.so;general;/usr/lib64/libboost_filesystem-mt.so;general;/usr/lib64/libboost_program_options-mt.so;general;/usr/lib64/libboost_regex-mt.so;general;/usr/lib64/libboost_iostreams-mt.so;general;/usr/lib64/libboost_date_time-mt.so;general;-lOgreRTShaderSystem;general;-lOgreMain;general;-lOgreMain;general;-lOgreTerrain;general;-lOgrePaging;general;-lOgreMain;general;-lOgreOverlay;general;-lOgreMain;
+gazebo_sensors_LIB_DEPENDS:STATIC=general;gazebo_common;general;gazebo_rendering;general;gazebo_physics;general;/usr/lib64/libboost_thread-mt.so;general;/usr/lib64/libboost_signals-mt.so;general;/usr/lib64/libboost_system-mt.so;general;/usr/lib64/libboost_filesystem-mt.so;general;/usr/lib64/libboost_program_options-mt.so;general;/usr/lib64/libboost_regex-mt.so;general;/usr/lib64/libboost_iostreams-mt.so;general;/usr/lib64/libboost_date_time-mt.so;general;-lOgreRTShaderSystem;general;-lOgreMain;general;-lOgreMain;general;-lOgreTerrain;general;-lOgrePaging;general;-lOgreMain;
 
 //Dependencies for the target
 gazebo_skyx_LIB_DEPENDS:STATIC=general;OgreMain;
@@ -1744,6 +1744,8 @@ DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //Details about finding Doxygen
 FIND_PACKAGE_MESSAGE_DETAILS_Doxygen:INTERNAL=[/usr/bin/doxygen][v1.8.5()]
+//Details about finding GDAL
+FIND_PACKAGE_MESSAGE_DETAILS_GDAL:INTERNAL=[/usr/lib64/libgdal.so][/usr/include][v()]
 //Details about finding OpenAL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenAL:INTERNAL=[/usr/lib64/libopenal.so][/usr/include/AL][v()]
 //Details about finding OpenGL
@@ -1868,17 +1870,12 @@ MIN_BOOST_VERSION:INTERNAL=1.40.0
 MIN_FREEIMAGE_VERSION:INTERNAL=3.9.0
 //Ogre version requirement
 MIN_OGRE_VERSION:INTERNAL=1.7.4
-OGRE-Overlay_CFLAGS:INTERNAL=-I/usr/include/OGRE/Overlay;-I/usr/include/OGRE
+OGRE-Overlay_CFLAGS:INTERNAL=
 OGRE-Overlay_CFLAGS_I:INTERNAL=
 OGRE-Overlay_CFLAGS_OTHER:INTERNAL=
-OGRE-Overlay_FOUND:INTERNAL=1
-OGRE-Overlay_INCLUDEDIR:INTERNAL=/usr/include
-OGRE-Overlay_INCLUDE_DIRS:INTERNAL=/usr/include/OGRE/Overlay;/usr/include/OGRE
-OGRE-Overlay_LDFLAGS:INTERNAL=-lOgreOverlay;-lOgreMain
-OGRE-Overlay_LDFLAGS_OTHER:INTERNAL=
-OGRE-Overlay_LIBDIR:INTERNAL=/usr/lib64
-OGRE-Overlay_LIBRARIES:INTERNAL=OgreOverlay;OgreMain
-OGRE-Overlay_LIBRARY_DIRS:INTERNAL=
+OGRE-Overlay_FOUND:INTERNAL=
+OGRE-Overlay_INCLUDEDIR:INTERNAL=
+OGRE-Overlay_LIBDIR:INTERNAL=
 OGRE-Overlay_LIBS:INTERNAL=
 OGRE-Overlay_LIBS_L:INTERNAL=
 OGRE-Overlay_LIBS_OTHER:INTERNAL=
@@ -1887,21 +1884,16 @@ OGRE-Overlay_OGRE-Overlay_INCLUDEDIR:INTERNAL=
 OGRE-Overlay_OGRE-Overlay_LIBDIR:INTERNAL=
 OGRE-Overlay_OGRE-Overlay_PREFIX:INTERNAL=
 OGRE-Overlay_OGRE-Overlay_VERSION:INTERNAL=
-OGRE-Overlay_PREFIX:INTERNAL=/usr
-OGRE-Overlay_STATIC_CFLAGS:INTERNAL=-I/usr/include/OGRE/Overlay;-I/usr/include/OGRE
+OGRE-Overlay_PREFIX:INTERNAL=
+OGRE-Overlay_STATIC_CFLAGS:INTERNAL=
 OGRE-Overlay_STATIC_CFLAGS_I:INTERNAL=
 OGRE-Overlay_STATIC_CFLAGS_OTHER:INTERNAL=
-OGRE-Overlay_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/OGRE/Overlay;/usr/include/OGRE
-OGRE-Overlay_STATIC_LDFLAGS:INTERNAL=-lOgreOverlay;-lOgreMain
-OGRE-Overlay_STATIC_LDFLAGS_OTHER:INTERNAL=
 OGRE-Overlay_STATIC_LIBDIR:INTERNAL=
-OGRE-Overlay_STATIC_LIBRARIES:INTERNAL=OgreOverlay;OgreMain
-OGRE-Overlay_STATIC_LIBRARY_DIRS:INTERNAL=
 OGRE-Overlay_STATIC_LIBS:INTERNAL=
 OGRE-Overlay_STATIC_LIBS_L:INTERNAL=
 OGRE-Overlay_STATIC_LIBS_OTHER:INTERNAL=
 OGRE-Overlay_STATIC_LIBS_PATHS:INTERNAL=
-OGRE-Overlay_VERSION:INTERNAL=1.9.0
+OGRE-Overlay_VERSION:INTERNAL=
 OGRE-RTShaderSystem_CFLAGS:INTERNAL=-I/usr/include/OGRE/RTShaderSystem;-I/usr/include/OGRE
 OGRE-RTShaderSystem_CFLAGS_I:INTERNAL=
 OGRE-RTShaderSystem_CFLAGS_OTHER:INTERNAL=
@@ -1935,7 +1927,7 @@ OGRE-RTShaderSystem_STATIC_LIBS:INTERNAL=
 OGRE-RTShaderSystem_STATIC_LIBS_L:INTERNAL=
 OGRE-RTShaderSystem_STATIC_LIBS_OTHER:INTERNAL=
 OGRE-RTShaderSystem_STATIC_LIBS_PATHS:INTERNAL=
-OGRE-RTShaderSystem_VERSION:INTERNAL=1.9.0
+OGRE-RTShaderSystem_VERSION:INTERNAL=1.8.1
 OGRE-Terrain_CFLAGS:INTERNAL=-I/usr/include/OGRE/Terrain;-I/usr/include/OGRE/Paging;-I/usr/include/OGRE
 OGRE-Terrain_CFLAGS_I:INTERNAL=
 OGRE-Terrain_CFLAGS_OTHER:INTERNAL=
@@ -1969,14 +1961,14 @@ OGRE-Terrain_STATIC_LIBS:INTERNAL=
 OGRE-Terrain_STATIC_LIBS_L:INTERNAL=
 OGRE-Terrain_STATIC_LIBS_OTHER:INTERNAL=
 OGRE-Terrain_STATIC_LIBS_PATHS:INTERNAL=
-OGRE-Terrain_VERSION:INTERNAL=1.9.0
+OGRE-Terrain_VERSION:INTERNAL=1.8.1
 OGRE_CFLAGS:INTERNAL=-I/usr/include/OGRE
 OGRE_CFLAGS_I:INTERNAL=
 OGRE_CFLAGS_OTHER:INTERNAL=
 OGRE_FOUND:INTERNAL=1
 OGRE_INCLUDEDIR:INTERNAL=/usr/include
 //Ogre include path
-OGRE_INCLUDE_DIRS:INTERNAL=/usr/include/OGRE/RTShaderSystem;/usr/include/OGRE;/usr/include/OGRE;/usr/include/OGRE/Terrain;/usr/include/OGRE/Paging;/usr/include/OGRE;/usr/include/OGRE/Overlay;/usr/include/OGRE
+OGRE_INCLUDE_DIRS:INTERNAL=/usr/include/OGRE/RTShaderSystem;/usr/include/OGRE;/usr/include/OGRE;/usr/include/OGRE/Terrain;/usr/include/OGRE/Paging;/usr/include/OGRE
 OGRE_LDFLAGS:INTERNAL=-lOgreMain
 OGRE_LDFLAGS_OTHER:INTERNAL=
 OGRE_LIBDIR:INTERNAL=/usr/lib64
@@ -2004,7 +1996,7 @@ OGRE_STATIC_LIBS:INTERNAL=
 OGRE_STATIC_LIBS_L:INTERNAL=
 OGRE_STATIC_LIBS_OTHER:INTERNAL=
 OGRE_STATIC_LIBS_PATHS:INTERNAL=
-OGRE_VERSION:INTERNAL=1.9.0
+OGRE_VERSION:INTERNAL=1.8.1
 //ADVANCED property for variable: OPENAL_INCLUDE_DIR
 OPENAL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENAL_LIBRARY
@@ -2774,7 +2766,7 @@ __pkg_config_checked_tinyxml:INTERNAL=1
 //build errors
 build_errors:INTERNAL=
 //build warning
-build_warnings:INTERNAL=	CEGUI not found, opengl GUI will be disabled.;	Simbody not found, for simbody physics engine option, please install libsimbody-dev.;	DART not found, for dart physics engine option, please install libdart-core4-dev.;	Player not found, gazebo plugin for player will not be built.;	GNU Triangulation Surface library not found - Gazebo will not have CSG support.;	Bullet > 2.82 not found, for bullet physics engine option, please install libbullet2.82-dev.;	GDAL not found, Digital elevation terrains support will be disabled.;	Oculus Rift support will be disabled.
+build_warnings:INTERNAL=	CEGUI not found, opengl GUI will be disabled.;	Simbody not found, for simbody physics engine option, please install libsimbody-dev.;	DART not found, for dart physics engine option, please install libdart-core4-dev.;	Player not found, gazebo plugin for player will not be built.;	GNU Triangulation Surface library not found - Gazebo will not have CSG support.;	Bullet > 2.82 not found, for bullet physics engine option, please install libbullet2.82-dev.;	Oculus Rift support will be disabled.
 //Common Headers
 common_headers:INTERNAL= #include "gazebo/common/Animation.hh"
  #include "gazebo/common/Assert.hh"
@@ -2906,8 +2898,8 @@ libavcodec_STATIC_CFLAGS:INTERNAL=
 libavcodec_STATIC_CFLAGS_I:INTERNAL=
 libavcodec_STATIC_CFLAGS_OTHER:INTERNAL=
 libavcodec_STATIC_INCLUDE_DIRS:INTERNAL=
-libavcodec_STATIC_LDFLAGS:INTERNAL=-lavcodec;-ldl;-lXfixes;-lXext;-lX11;-lasound;-lSDL;-lpthread;-lxvidcore;-lx264;-lvorbisenc;-lvorbis;-logg;-lvo-aacenc;-lmp3lame;-lfreetype;-lm;-lbz2;-lz;-lavutil;-lm
-libavcodec_STATIC_LDFLAGS_OTHER:INTERNAL=
+libavcodec_STATIC_LDFLAGS:INTERNAL=-lavcodec;-ldl;-lXfixes;-lXext;-lX11;-lasound;-lSDL;-lpthread;-lxvidcore;-lx264;-lvorbisenc;-lvorbis;-logg;-lvo-aacenc;-lmp3lame;-lfreetype;-lm;-pthread;-lbz2;-lz;-lavutil;-lm
+libavcodec_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
 libavcodec_STATIC_LIBDIR:INTERNAL=
 libavcodec_STATIC_LIBRARIES:INTERNAL=avcodec;dl;Xfixes;Xext;X11;asound;SDL;pthread;xvidcore;x264;vorbisenc;vorbis;ogg;vo-aacenc;mp3lame;freetype;m;bz2;z;avutil;m
 libavcodec_STATIC_LIBRARY_DIRS:INTERNAL=
@@ -2940,8 +2932,8 @@ libavformat_STATIC_CFLAGS:INTERNAL=
 libavformat_STATIC_CFLAGS_I:INTERNAL=
 libavformat_STATIC_CFLAGS_OTHER:INTERNAL=
 libavformat_STATIC_INCLUDE_DIRS:INTERNAL=
-libavformat_STATIC_LDFLAGS:INTERNAL=-lavformat;-ldl;-lXfixes;-lXext;-lX11;-lasound;-lSDL;-lpthread;-lxvidcore;-lx264;-lvorbisenc;-lvorbis;-logg;-lvo-aacenc;-lmp3lame;-lfreetype;-lm;-lbz2;-lz;-lavcodec;-ldl;-lXfixes;-lXext;-lX11;-lasound;-lSDL;-lpthread;-lxvidcore;-lx264;-lvorbisenc;-lvorbis;-logg;-lvo-aacenc;-lmp3lame;-lfreetype;-lm;-lbz2;-lz;-lavutil;-lm
-libavformat_STATIC_LDFLAGS_OTHER:INTERNAL=
+libavformat_STATIC_LDFLAGS:INTERNAL=-lavformat;-ldl;-lXfixes;-lXext;-lX11;-lasound;-lSDL;-lpthread;-lxvidcore;-lx264;-lvorbisenc;-lvorbis;-logg;-lvo-aacenc;-lmp3lame;-lfreetype;-lm;-pthread;-lbz2;-lz;-lavcodec;-ldl;-lXfixes;-lXext;-lX11;-lasound;-lSDL;-lpthread;-lxvidcore;-lx264;-lvorbisenc;-lvorbis;-logg;-lvo-aacenc;-lmp3lame;-lfreetype;-lm;-pthread;-lbz2;-lz;-lavutil;-lm
+libavformat_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
 libavformat_STATIC_LIBDIR:INTERNAL=
 libavformat_STATIC_LIBRARIES:INTERNAL=avformat;dl;Xfixes;Xext;X11;asound;SDL;pthread;xvidcore;x264;vorbisenc;vorbis;ogg;vo-aacenc;mp3lame;freetype;m;bz2;z;avcodec;dl;Xfixes;Xext;X11;asound;SDL;pthread;xvidcore;x264;vorbisenc;vorbis;ogg;vo-aacenc;mp3lame;freetype;m;bz2;z;avutil;m
 libavformat_STATIC_LIBRARY_DIRS:INTERNAL=

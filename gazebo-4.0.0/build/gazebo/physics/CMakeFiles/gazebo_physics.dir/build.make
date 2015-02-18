@@ -937,6 +937,7 @@ gazebo/physics/libgazebo_physics.so.4.0.0: gazebo/physics/CMakeFiles/gazebo_phys
 gazebo/physics/libgazebo_physics.so.4.0.0: gazebo/common/libgazebo_common.so.4.0.0
 gazebo/physics/libgazebo_physics.so.4.0.0: gazebo/util/libgazebo_util.so.4.0.0
 gazebo/physics/libgazebo_physics.so.4.0.0: gazebo/physics/ode/libgazebo_physics_ode.so.4.0.0
+gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/physics/libgazebo_physics.so.4.0.0: gazebo/transport/libgazebo_transport.so.4.0.0
 gazebo/physics/libgazebo_physics.so.4.0.0: gazebo/msgs/libgazebo_msgs.so.4.0.0
 gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libprotobuf.so
@@ -947,6 +948,7 @@ gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libtar.so
 gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/physics/libgazebo_physics.so.4.0.0: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/physics/libgazebo_physics.so.4.0.0: deps/opende/libgazebo_ode.so.4.0.0
 gazebo/physics/libgazebo_physics.so.4.0.0: /usr/lib64/libboost_thread-mt.so

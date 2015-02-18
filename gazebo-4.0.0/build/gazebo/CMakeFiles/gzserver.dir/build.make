@@ -188,6 +188,7 @@ gazebo/gzserver-4.0.0: /usr/lib64/libtinyxml.so
 gazebo/gzserver-4.0.0: /usr/lib64/libtar.so
 gazebo/gzserver-4.0.0: /usr/lib64/libsdformat.so
 gazebo/gzserver-4.0.0: /usr/lib64/libopenal.so
+gazebo/gzserver-4.0.0: /usr/lib64/libgdal.so
 gazebo/gzserver-4.0.0: /usr/lib64/libGLU.so
 gazebo/gzserver-4.0.0: /usr/lib64/libGL.so
 gazebo/gzserver-4.0.0: /usr/lib64/libSM.so

@@ -121,6 +121,7 @@ test/cmake/REGRESSION_config-cmake: /usr/lib64/libtinyxml.so
 test/cmake/REGRESSION_config-cmake: /usr/lib64/libtar.so
 test/cmake/REGRESSION_config-cmake: /usr/lib64/libsdformat.so
 test/cmake/REGRESSION_config-cmake: /usr/lib64/libopenal.so
+test/cmake/REGRESSION_config-cmake: /usr/lib64/libgdal.so
 test/cmake/REGRESSION_config-cmake: gazebo/math/libgazebo_math.so.4.0.0
 test/cmake/REGRESSION_config-cmake: /usr/lib64/libprotobuf.so
 test/cmake/REGRESSION_config-cmake: /usr/lib64/libboost_thread-mt.so

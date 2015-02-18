@@ -29,7 +29,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreAnimationTrack.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreAutoParamDataSource.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreBlendMode.h
@@ -50,9 +50,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreGpuProgramParams.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHardwareBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHardwareBufferManager.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHardwareCounterBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHardwareIndexBuffer.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHardwareUniformBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHardwareVertexBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHeaderPrefix.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreHeaderSuffix.h
@@ -86,14 +84,12 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreMesh.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreMovableObject.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreMovablePlane.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreNameGenerator.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreNode.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePass.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePixelFormat.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePose.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreQuaternion.h
@@ -146,14 +142,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Defer
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/OgreViewport.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/DeferredLight.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: ../gazebo/rendering/deferred_shading/GBufferMaterialGenerator.hh
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
@@ -163,7 +153,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreAnimable.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreBlendMode.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreBuildSettings.h
@@ -210,7 +200,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreQuaternion.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreRenderOperation.h
@@ -241,14 +230,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreVector4.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: ../gazebo/common/Exception.hh
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: ../gazebo/rendering/deferred_shading/GBufferMaterialGenerator.hh
@@ -260,7 +243,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreAnimable.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreBlendMode.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreBuildSettings.h
@@ -304,7 +287,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreQuaternion.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreRenderOperation.h
@@ -335,14 +317,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBuff
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreVector4.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GBufferSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: ../gazebo/common/CommonTypes.hh
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: ../gazebo/common/Console.hh
@@ -357,7 +333,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreAnimationTrack.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreBlendMode.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreBuildSettings.h
@@ -367,12 +343,9 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreController.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreDataStream.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreException.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreGpuProgramParams.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHardwareBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHardwareBufferManager.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHardwareCounterBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHardwareIndexBuffer.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHardwareUniformBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHardwareVertexBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHeaderPrefix.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreHeaderSuffix.h
@@ -397,7 +370,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgrePatchSurface.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgrePose.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreQuaternion.h
@@ -408,7 +380,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreResourceManager.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreRotationalSpline.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreScriptLoader.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreSerializer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreSharedPtr.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreSimpleSpline.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreSingleton.h
@@ -424,14 +395,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomU
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreVertexBoneAssignment.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/GeomUtils.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: ../gazebo/util/system.hh
@@ -440,7 +405,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Mater
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreAnimable.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreBlendMode.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreBuildSettings.h
@@ -486,7 +451,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Mater
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreQuaternion.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreRenderOperation.h
@@ -517,14 +481,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Mater
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreVector4.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: ../gazebo/rendering/deferred_shading/MergeMaterialGenerator.hh
@@ -534,7 +492,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreAnimable.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreBlendMode.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreBuildSettings.h
@@ -581,7 +539,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreQuaternion.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreRenderOperation.h
@@ -612,14 +569,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreVector4.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeMaterialGenerator.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: ../gazebo/rendering/deferred_shading/MaterialGenerator.hh
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: ../gazebo/rendering/deferred_shading/MergeMaterialGenerator.hh
@@ -630,7 +581,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreAnimable.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreBlendMode.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreBuildSettings.h
@@ -674,7 +625,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreQuaternion.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreRenderOperation.h
@@ -705,14 +655,8 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/Merge
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreVector4.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/MergeSchemeHandler.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: ../gazebo/rendering/deferred_shading/ListenerFactoryLogic.hh
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: ../gazebo/rendering/deferred_shading/SSAOLogic.hh
@@ -728,7 +672,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreArchive.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreArchiveManager.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreAutoParamDataSource.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreBillboard.h
@@ -766,11 +710,9 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreGpuProgramParams.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwareBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwareBufferManager.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwareCounterBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwareIndexBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwareOcclusionQuery.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwarePixelBuffer.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwareUniformBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHardwareVertexBuffer.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHeaderPrefix.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreHeaderSuffix.h
@@ -811,8 +753,12 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreMeshSerializerImpl.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreMovableObject.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreMovablePlane.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreNameGenerator.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreNode.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreOverlay.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreOverlayContainer.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreOverlayElement.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreOverlayElementCommands.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreOverlayManager.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreParticle.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreParticleAffector.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreParticleEmitter.h
@@ -827,7 +773,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgrePolygon.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgrePose.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgrePredefinedControllers.h
@@ -836,6 +781,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreQuaternion.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreRadixSort.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreRay.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreRectangle.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreRectangle2D.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreRenderObjectListener.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreRenderOperation.h
@@ -893,6 +839,7 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreTextureManager.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreTextureUnitState.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreTimer.h
+gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreUTFString.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreUserObjectBindings.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreVector2.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreVector3.h
@@ -903,12 +850,6 @@ gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOL
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreWindowEventUtilities.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/OgreWorkQueue.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/deferred_shading/CMakeFiles/gazebo_rendering_deferred.dir/SSAOLogic.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 

@@ -121,6 +121,7 @@ test/pkgconfig/REGRESSION_config-pkgconfig: /usr/lib64/libtinyxml.so
 test/pkgconfig/REGRESSION_config-pkgconfig: /usr/lib64/libtar.so
 test/pkgconfig/REGRESSION_config-pkgconfig: /usr/lib64/libsdformat.so
 test/pkgconfig/REGRESSION_config-pkgconfig: /usr/lib64/libopenal.so
+test/pkgconfig/REGRESSION_config-pkgconfig: /usr/lib64/libgdal.so
 test/pkgconfig/REGRESSION_config-pkgconfig: gazebo/math/libgazebo_math.so.4.0.0
 test/pkgconfig/REGRESSION_config-pkgconfig: /usr/lib64/libprotobuf.so
 test/pkgconfig/REGRESSION_config-pkgconfig: /usr/lib64/libboost_thread-mt.so

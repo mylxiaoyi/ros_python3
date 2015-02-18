@@ -1303,6 +1303,7 @@ gazebo/gui/libgazebo_gui.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/gui/libgazebo_gui.so.4.0.0: /usr/lib64/libtar.so
 gazebo/gui/libgazebo_gui.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/gui/libgazebo_gui.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/gui/libgazebo_gui.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/gui/libgazebo_gui.so.4.0.0: /usr/lib64/libprotobuf.so
 gazebo/gui/libgazebo_gui.so.4.0.0: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/gui/libgazebo_gui.so.4.0.0: /usr/lib64/libboost_thread-mt.so

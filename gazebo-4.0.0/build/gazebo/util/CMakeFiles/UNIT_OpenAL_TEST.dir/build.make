@@ -121,6 +121,7 @@ gazebo/util/UNIT_OpenAL_TEST: /usr/lib64/libtinyxml.so
 gazebo/util/UNIT_OpenAL_TEST: /usr/lib64/libtar.so
 gazebo/util/UNIT_OpenAL_TEST: /usr/lib64/libsdformat.so
 gazebo/util/UNIT_OpenAL_TEST: /usr/lib64/libopenal.so
+gazebo/util/UNIT_OpenAL_TEST: /usr/lib64/libgdal.so
 gazebo/util/UNIT_OpenAL_TEST: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/util/UNIT_OpenAL_TEST: /usr/lib64/libprotobuf.so
 gazebo/util/UNIT_OpenAL_TEST: /usr/lib64/libboost_thread-mt.so

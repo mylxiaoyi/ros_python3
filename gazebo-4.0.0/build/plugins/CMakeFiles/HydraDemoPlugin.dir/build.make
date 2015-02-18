@@ -113,6 +113,7 @@ plugins/libHydraDemoPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libHydraDemoPlugin.so: /usr/lib64/libtar.so
 plugins/libHydraDemoPlugin.so: /usr/lib64/libsdformat.so
 plugins/libHydraDemoPlugin.so: /usr/lib64/libopenal.so
+plugins/libHydraDemoPlugin.so: /usr/lib64/libgdal.so
 plugins/libHydraDemoPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libHydraDemoPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libHydraDemoPlugin.so: /usr/lib64/libboost_thread-mt.so

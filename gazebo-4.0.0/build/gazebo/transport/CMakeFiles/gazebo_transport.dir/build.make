@@ -376,6 +376,7 @@ gazebo/transport/libgazebo_transport.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/transport/libgazebo_transport.so.4.0.0: /usr/lib64/libtar.so
 gazebo/transport/libgazebo_transport.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/transport/libgazebo_transport.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/transport/libgazebo_transport.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/transport/libgazebo_transport.so.4.0.0: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/transport/libgazebo_transport.so.4.0.0: /usr/lib64/libboost_thread-mt.so
 gazebo/transport/libgazebo_transport.so.4.0.0: /usr/lib64/libboost_signals-mt.so

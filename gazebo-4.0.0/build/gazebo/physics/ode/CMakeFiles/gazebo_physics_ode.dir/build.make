@@ -531,6 +531,7 @@ gazebo/physics/ode/libgazebo_physics_ode.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/physics/ode/libgazebo_physics_ode.so.4.0.0: /usr/lib64/libtar.so
 gazebo/physics/ode/libgazebo_physics_ode.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/physics/ode/libgazebo_physics_ode.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/physics/ode/libgazebo_physics_ode.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/physics/ode/libgazebo_physics_ode.so.4.0.0: gazebo/physics/ode/CMakeFiles/gazebo_physics_ode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libgazebo_physics_ode.so"
 	cd /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/build/gazebo/physics/ode && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_physics_ode.dir/link.txt --verbose=$(VERBOSE)

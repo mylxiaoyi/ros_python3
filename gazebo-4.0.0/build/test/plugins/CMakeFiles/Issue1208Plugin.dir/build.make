@@ -113,6 +113,7 @@ test/plugins/libIssue1208Plugin.so: /usr/lib64/libtinyxml.so
 test/plugins/libIssue1208Plugin.so: /usr/lib64/libtar.so
 test/plugins/libIssue1208Plugin.so: /usr/lib64/libsdformat.so
 test/plugins/libIssue1208Plugin.so: /usr/lib64/libopenal.so
+test/plugins/libIssue1208Plugin.so: /usr/lib64/libgdal.so
 test/plugins/libIssue1208Plugin.so: /usr/lib64/libprotobuf.so
 test/plugins/libIssue1208Plugin.so: gazebo/math/libgazebo_math.so.4.0.0
 test/plugins/libIssue1208Plugin.so: /usr/lib64/libboost_thread-mt.so

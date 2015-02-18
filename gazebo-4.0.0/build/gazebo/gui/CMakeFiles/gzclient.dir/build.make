@@ -1328,6 +1328,7 @@ gazebo/gui/gzclient-4.0.0: /usr/lib64/libtinyxml.so
 gazebo/gui/gzclient-4.0.0: /usr/lib64/libtar.so
 gazebo/gui/gzclient-4.0.0: /usr/lib64/libsdformat.so
 gazebo/gui/gzclient-4.0.0: /usr/lib64/libopenal.so
+gazebo/gui/gzclient-4.0.0: /usr/lib64/libgdal.so
 gazebo/gui/gzclient-4.0.0: /usr/lib64/libprotobuf.so
 gazebo/gui/gzclient-4.0.0: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/gui/gzclient-4.0.0: /usr/lib64/libboost_thread-mt.so

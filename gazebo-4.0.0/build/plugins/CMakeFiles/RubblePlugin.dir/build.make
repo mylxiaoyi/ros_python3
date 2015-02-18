@@ -113,6 +113,7 @@ plugins/libRubblePlugin.so: /usr/lib64/libtinyxml.so
 plugins/libRubblePlugin.so: /usr/lib64/libtar.so
 plugins/libRubblePlugin.so: /usr/lib64/libsdformat.so
 plugins/libRubblePlugin.so: /usr/lib64/libopenal.so
+plugins/libRubblePlugin.so: /usr/lib64/libgdal.so
 plugins/libRubblePlugin.so: /usr/lib64/libprotobuf.so
 plugins/libRubblePlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libRubblePlugin.so: /usr/lib64/libboost_thread-mt.so

@@ -121,6 +121,7 @@ gazebo/msgs/UNIT_MsgFactory_TEST: /usr/lib64/libtinyxml.so
 gazebo/msgs/UNIT_MsgFactory_TEST: /usr/lib64/libtar.so
 gazebo/msgs/UNIT_MsgFactory_TEST: /usr/lib64/libsdformat.so
 gazebo/msgs/UNIT_MsgFactory_TEST: /usr/lib64/libopenal.so
+gazebo/msgs/UNIT_MsgFactory_TEST: /usr/lib64/libgdal.so
 gazebo/msgs/UNIT_MsgFactory_TEST: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/msgs/UNIT_MsgFactory_TEST: /usr/lib64/libprotobuf.so
 gazebo/msgs/UNIT_MsgFactory_TEST: /usr/lib64/libboost_thread-mt.so

@@ -512,6 +512,7 @@ gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libtar.so
 gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libGLU.so
 gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libGL.so
 gazebo/gui/viewers/libgazebo_gui_viewers.so.4.0.0: /usr/lib64/libSM.so

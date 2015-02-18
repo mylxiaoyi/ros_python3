@@ -1089,6 +1089,7 @@ gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libtar.so
 gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libGLU.so
 gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libGL.so
 gazebo/rendering/libgazebo_rendering.so.4.0.0: /usr/lib64/libSM.so

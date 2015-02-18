@@ -213,6 +213,7 @@ gazebo/gui/UNIT_GuiIface_TEST: /usr/lib64/libtinyxml.so
 gazebo/gui/UNIT_GuiIface_TEST: /usr/lib64/libtar.so
 gazebo/gui/UNIT_GuiIface_TEST: /usr/lib64/libsdformat.so
 gazebo/gui/UNIT_GuiIface_TEST: /usr/lib64/libopenal.so
+gazebo/gui/UNIT_GuiIface_TEST: /usr/lib64/libgdal.so
 gazebo/gui/UNIT_GuiIface_TEST: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/gui/UNIT_GuiIface_TEST: /usr/lib64/libprotobuf.so
 gazebo/gui/UNIT_GuiIface_TEST: gazebo/gui/qtpropertybrowser/libgzqtpropertybrowser.a

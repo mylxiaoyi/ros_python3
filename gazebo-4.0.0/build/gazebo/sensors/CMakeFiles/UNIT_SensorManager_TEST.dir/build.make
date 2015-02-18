@@ -121,6 +121,7 @@ gazebo/sensors/UNIT_SensorManager_TEST: /usr/lib64/libtinyxml.so
 gazebo/sensors/UNIT_SensorManager_TEST: /usr/lib64/libtar.so
 gazebo/sensors/UNIT_SensorManager_TEST: /usr/lib64/libsdformat.so
 gazebo/sensors/UNIT_SensorManager_TEST: /usr/lib64/libopenal.so
+gazebo/sensors/UNIT_SensorManager_TEST: /usr/lib64/libgdal.so
 gazebo/sensors/UNIT_SensorManager_TEST: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/sensors/UNIT_SensorManager_TEST: /usr/lib64/libprotobuf.so
 gazebo/sensors/UNIT_SensorManager_TEST: /usr/lib64/libboost_thread-mt.so

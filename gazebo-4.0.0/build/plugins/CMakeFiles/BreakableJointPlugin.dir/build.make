@@ -112,6 +112,7 @@ plugins/libBreakableJointPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libBreakableJointPlugin.so: /usr/lib64/libtar.so
 plugins/libBreakableJointPlugin.so: /usr/lib64/libsdformat.so
 plugins/libBreakableJointPlugin.so: /usr/lib64/libopenal.so
+plugins/libBreakableJointPlugin.so: /usr/lib64/libgdal.so
 plugins/libBreakableJointPlugin.so: /usr/lib64/libGLU.so
 plugins/libBreakableJointPlugin.so: /usr/lib64/libGL.so
 plugins/libBreakableJointPlugin.so: /usr/lib64/libSM.so

@@ -121,6 +121,7 @@ gazebo/common/UNIT_Exception_TEST: /usr/lib64/libtinyxml.so
 gazebo/common/UNIT_Exception_TEST: /usr/lib64/libtar.so
 gazebo/common/UNIT_Exception_TEST: /usr/lib64/libsdformat.so
 gazebo/common/UNIT_Exception_TEST: /usr/lib64/libopenal.so
+gazebo/common/UNIT_Exception_TEST: /usr/lib64/libgdal.so
 gazebo/common/UNIT_Exception_TEST: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/common/UNIT_Exception_TEST: /usr/lib64/libprotobuf.so
 gazebo/common/UNIT_Exception_TEST: /usr/lib64/libboost_thread-mt.so

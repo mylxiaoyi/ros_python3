@@ -113,6 +113,7 @@ plugins/libMudPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libMudPlugin.so: /usr/lib64/libtar.so
 plugins/libMudPlugin.so: /usr/lib64/libsdformat.so
 plugins/libMudPlugin.so: /usr/lib64/libopenal.so
+plugins/libMudPlugin.so: /usr/lib64/libgdal.so
 plugins/libMudPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libMudPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libMudPlugin.so: /usr/lib64/libboost_thread-mt.so

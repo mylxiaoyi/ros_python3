@@ -113,6 +113,7 @@ plugins/libDepthCameraPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libDepthCameraPlugin.so: /usr/lib64/libtar.so
 plugins/libDepthCameraPlugin.so: /usr/lib64/libsdformat.so
 plugins/libDepthCameraPlugin.so: /usr/lib64/libopenal.so
+plugins/libDepthCameraPlugin.so: /usr/lib64/libgdal.so
 plugins/libDepthCameraPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libDepthCameraPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libDepthCameraPlugin.so: /usr/lib64/libboost_thread-mt.so

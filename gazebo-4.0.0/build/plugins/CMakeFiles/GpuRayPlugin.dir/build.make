@@ -113,6 +113,7 @@ plugins/libGpuRayPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libGpuRayPlugin.so: /usr/lib64/libtar.so
 plugins/libGpuRayPlugin.so: /usr/lib64/libsdformat.so
 plugins/libGpuRayPlugin.so: /usr/lib64/libopenal.so
+plugins/libGpuRayPlugin.so: /usr/lib64/libgdal.so
 plugins/libGpuRayPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libGpuRayPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libGpuRayPlugin.so: /usr/lib64/libboost_thread-mt.so

@@ -113,6 +113,7 @@ plugins/libModelPropShop.so: /usr/lib64/libtinyxml.so
 plugins/libModelPropShop.so: /usr/lib64/libtar.so
 plugins/libModelPropShop.so: /usr/lib64/libsdformat.so
 plugins/libModelPropShop.so: /usr/lib64/libopenal.so
+plugins/libModelPropShop.so: /usr/lib64/libgdal.so
 plugins/libModelPropShop.so: /usr/lib64/libprotobuf.so
 plugins/libModelPropShop.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libModelPropShop.so: /usr/lib64/libboost_thread-mt.so

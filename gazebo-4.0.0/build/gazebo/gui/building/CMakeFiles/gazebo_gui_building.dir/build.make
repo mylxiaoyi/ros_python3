@@ -1372,6 +1372,7 @@ gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libtar.so
 gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libGLU.so
 gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libGL.so
 gazebo/gui/building/libgazebo_gui_building.so.4.0.0: /usr/lib64/libSM.so

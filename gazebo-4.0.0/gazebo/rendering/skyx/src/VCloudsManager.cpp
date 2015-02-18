@@ -101,8 +101,8 @@ namespace SkyX
     // parameters
     Ogre::Vector2 defaultheight = Ogre::Vector2(selectedRadius*0.025f,
         selectedRadius*0.1f);
-    Ogre::Vector2 height = (equal(mHeight.x, -1.0) ||
-                            equal(mHeight.y, -1.0)) ? defaultheight : mHeight;
+    Ogre::Vector2 height = (equal((double)mHeight.x, -1.0) ||
+                            equal((double)mHeight.y, -1.0)) ? defaultheight : mHeight;
 
     _setLightParameters();
     mVClouds->create(height, selectedRadius);

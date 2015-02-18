@@ -157,7 +157,7 @@ gazebo/gazebo_config.h
 -
 gazebo/util/system.hh
 -
-gdal/gdal_priv.h
+gdal_priv.h
 -
 string
 -
@@ -175,7 +175,7 @@ gazebo/gazebo_config.h
 -
 gazebo/util/system.hh
 -
-gdal/gdal_priv.h
+gdal_priv.h
 -
 vector
 -

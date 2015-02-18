@@ -121,6 +121,7 @@ test/integration/INTEGRATION_joint_spawn: /usr/lib64/libtinyxml.so
 test/integration/INTEGRATION_joint_spawn: /usr/lib64/libtar.so
 test/integration/INTEGRATION_joint_spawn: /usr/lib64/libsdformat.so
 test/integration/INTEGRATION_joint_spawn: /usr/lib64/libopenal.so
+test/integration/INTEGRATION_joint_spawn: /usr/lib64/libgdal.so
 test/integration/INTEGRATION_joint_spawn: gazebo/math/libgazebo_math.so.4.0.0
 test/integration/INTEGRATION_joint_spawn: /usr/lib64/libprotobuf.so
 test/integration/INTEGRATION_joint_spawn: /usr/lib64/libboost_thread-mt.so

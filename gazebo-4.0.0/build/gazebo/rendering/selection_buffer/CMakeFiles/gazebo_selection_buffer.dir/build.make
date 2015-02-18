@@ -156,6 +156,7 @@ gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib6
 gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib64/libtar.so
 gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib64/libGLU.so
 gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib64/libGL.so
 gazebo/rendering/selection_buffer/libgazebo_selection_buffer.so.4.0.0: /usr/lib64/libSM.so

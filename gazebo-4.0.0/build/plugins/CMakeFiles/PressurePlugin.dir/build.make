@@ -113,6 +113,7 @@ plugins/libPressurePlugin.so: /usr/lib64/libtinyxml.so
 plugins/libPressurePlugin.so: /usr/lib64/libtar.so
 plugins/libPressurePlugin.so: /usr/lib64/libsdformat.so
 plugins/libPressurePlugin.so: /usr/lib64/libopenal.so
+plugins/libPressurePlugin.so: /usr/lib64/libgdal.so
 plugins/libPressurePlugin.so: /usr/lib64/libprotobuf.so
 plugins/libPressurePlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libPressurePlugin.so: /usr/lib64/libboost_thread-mt.so

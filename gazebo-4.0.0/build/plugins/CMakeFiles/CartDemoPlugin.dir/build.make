@@ -113,6 +113,7 @@ plugins/libCartDemoPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libCartDemoPlugin.so: /usr/lib64/libtar.so
 plugins/libCartDemoPlugin.so: /usr/lib64/libsdformat.so
 plugins/libCartDemoPlugin.so: /usr/lib64/libopenal.so
+plugins/libCartDemoPlugin.so: /usr/lib64/libgdal.so
 plugins/libCartDemoPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libCartDemoPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libCartDemoPlugin.so: /usr/lib64/libboost_thread-mt.so

@@ -311,7 +311,7 @@ namespace SkyX
             "uSkydomeCenter", c->getDerivedPosition());
     }
 
-    if (!equal(mMoonBillboard->getBoundingBox().getMaximum().x, (double)size))
+    if (!equal((double)(mMoonBillboard->getBoundingBox().getMaximum().x), (double)size))
     {
       _updateMoonBounds(c);
     }

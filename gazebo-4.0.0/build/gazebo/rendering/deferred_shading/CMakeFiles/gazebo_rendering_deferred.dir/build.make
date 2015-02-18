@@ -281,6 +281,7 @@ gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/li
 gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/lib64/libtar.so
 gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/lib64/libGLU.so
 gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/lib64/libGL.so
 gazebo/rendering/deferred_shading/libgazebo_rendering_deferred.so.4.0.0: /usr/lib64/libSM.so

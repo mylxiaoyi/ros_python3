@@ -113,6 +113,7 @@ plugins/libRaySensorNoisePlugin.so: /usr/lib64/libtinyxml.so
 plugins/libRaySensorNoisePlugin.so: /usr/lib64/libtar.so
 plugins/libRaySensorNoisePlugin.so: /usr/lib64/libsdformat.so
 plugins/libRaySensorNoisePlugin.so: /usr/lib64/libopenal.so
+plugins/libRaySensorNoisePlugin.so: /usr/lib64/libgdal.so
 plugins/libRaySensorNoisePlugin.so: /usr/lib64/libprotobuf.so
 plugins/libRaySensorNoisePlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libRaySensorNoisePlugin.so: /usr/lib64/libboost_thread-mt.so

@@ -121,6 +121,7 @@ test/examples/EXAMPLE_example_plugins: /usr/lib64/libtinyxml.so
 test/examples/EXAMPLE_example_plugins: /usr/lib64/libtar.so
 test/examples/EXAMPLE_example_plugins: /usr/lib64/libsdformat.so
 test/examples/EXAMPLE_example_plugins: /usr/lib64/libopenal.so
+test/examples/EXAMPLE_example_plugins: /usr/lib64/libgdal.so
 test/examples/EXAMPLE_example_plugins: gazebo/math/libgazebo_math.so.4.0.0
 test/examples/EXAMPLE_example_plugins: /usr/lib64/libprotobuf.so
 test/examples/EXAMPLE_example_plugins: /usr/lib64/libboost_thread-mt.so

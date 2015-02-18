@@ -616,6 +616,7 @@ gazebo/sensors/libgazebo_sensors.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/sensors/libgazebo_sensors.so.4.0.0: /usr/lib64/libtar.so
 gazebo/sensors/libgazebo_sensors.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/sensors/libgazebo_sensors.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/sensors/libgazebo_sensors.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/sensors/libgazebo_sensors.so.4.0.0: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/sensors/libgazebo_sensors.so.4.0.0: deps/opende/libgazebo_ode.so.4.0.0
 gazebo/sensors/libgazebo_sensors.so.4.0.0: /usr/lib64/libboost_thread-mt.so

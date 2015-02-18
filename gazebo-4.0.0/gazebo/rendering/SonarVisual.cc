@@ -117,8 +117,8 @@ void SonarVisual::Update()
       - dPtr->sonarMsg->sonar().range_min();
   float radiusScale = dPtr->sonarMsg->sonar().radius()*2.0;
 
-  if (!math::equal(dPtr->coneNode->getScale().z, double(rangeDelta)) ||
-      !math::equal(dPtr->coneNode->getScale().x, double(radiusScale)))
+  if (!math::equal((double)(dPtr->coneNode->getScale().z), double(rangeDelta)) ||
+      !math::equal((double)(dPtr->coneNode->getScale().x), double(radiusScale)))
   {
     dPtr->coneNode->setScale(radiusScale, radiusScale, rangeDelta);
     dPtr->sonarRay->SetPoint(0, math::Vector3(0, 0, rangeDelta * 0.5));

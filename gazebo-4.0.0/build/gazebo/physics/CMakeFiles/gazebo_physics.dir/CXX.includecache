@@ -89,7 +89,7 @@ gazebo/gazebo_config.h
 -
 gazebo/util/system.hh
 -
-gdal/gdal_priv.h
+gdal_priv.h
 -
 string
 -
@@ -107,7 +107,7 @@ gazebo/gazebo_config.h
 -
 gazebo/util/system.hh
 -
-gdal/gdal_priv.h
+gdal_priv.h
 -
 vector
 -
@@ -1873,7 +1873,7 @@ gazebo/physics/Gripper.hh
 /home/mylxiaoyi/ros_catkin_ws/src/gazebo-4.0.0/gazebo/physics/HeightmapShape.cc
 gazebo/gazebo_config.h
 -
-gdal/gdalwarper.h
+gdalwarper.h
 -
 algorithm
 -

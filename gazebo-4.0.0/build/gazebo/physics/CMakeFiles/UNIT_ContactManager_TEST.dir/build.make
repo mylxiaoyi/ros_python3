@@ -121,6 +121,7 @@ gazebo/physics/UNIT_ContactManager_TEST: /usr/lib64/libtinyxml.so
 gazebo/physics/UNIT_ContactManager_TEST: /usr/lib64/libtar.so
 gazebo/physics/UNIT_ContactManager_TEST: /usr/lib64/libsdformat.so
 gazebo/physics/UNIT_ContactManager_TEST: /usr/lib64/libopenal.so
+gazebo/physics/UNIT_ContactManager_TEST: /usr/lib64/libgdal.so
 gazebo/physics/UNIT_ContactManager_TEST: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/physics/UNIT_ContactManager_TEST: /usr/lib64/libprotobuf.so
 gazebo/physics/UNIT_ContactManager_TEST: /usr/lib64/libboost_thread-mt.so

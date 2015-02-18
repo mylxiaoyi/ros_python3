@@ -113,6 +113,7 @@ plugins/libSonarPlugin.so: /usr/lib64/libtinyxml.so
 plugins/libSonarPlugin.so: /usr/lib64/libtar.so
 plugins/libSonarPlugin.so: /usr/lib64/libsdformat.so
 plugins/libSonarPlugin.so: /usr/lib64/libopenal.so
+plugins/libSonarPlugin.so: /usr/lib64/libgdal.so
 plugins/libSonarPlugin.so: /usr/lib64/libprotobuf.so
 plugins/libSonarPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 plugins/libSonarPlugin.so: /usr/lib64/libboost_thread-mt.so

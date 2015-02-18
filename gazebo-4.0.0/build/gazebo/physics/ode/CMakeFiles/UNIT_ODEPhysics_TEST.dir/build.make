@@ -121,6 +121,7 @@ gazebo/physics/ode/UNIT_ODEPhysics_TEST: /usr/lib64/libtinyxml.so
 gazebo/physics/ode/UNIT_ODEPhysics_TEST: /usr/lib64/libtar.so
 gazebo/physics/ode/UNIT_ODEPhysics_TEST: /usr/lib64/libsdformat.so
 gazebo/physics/ode/UNIT_ODEPhysics_TEST: /usr/lib64/libopenal.so
+gazebo/physics/ode/UNIT_ODEPhysics_TEST: /usr/lib64/libgdal.so
 gazebo/physics/ode/UNIT_ODEPhysics_TEST: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/physics/ode/UNIT_ODEPhysics_TEST: /usr/lib64/libprotobuf.so
 gazebo/physics/ode/UNIT_ODEPhysics_TEST: /usr/lib64/libboost_thread-mt.so

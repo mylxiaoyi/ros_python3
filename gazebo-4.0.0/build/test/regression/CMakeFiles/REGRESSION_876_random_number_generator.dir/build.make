@@ -121,6 +121,7 @@ test/regression/REGRESSION_876_random_number_generator: /usr/lib64/libtinyxml.so
 test/regression/REGRESSION_876_random_number_generator: /usr/lib64/libtar.so
 test/regression/REGRESSION_876_random_number_generator: /usr/lib64/libsdformat.so
 test/regression/REGRESSION_876_random_number_generator: /usr/lib64/libopenal.so
+test/regression/REGRESSION_876_random_number_generator: /usr/lib64/libgdal.so
 test/regression/REGRESSION_876_random_number_generator: gazebo/math/libgazebo_math.so.4.0.0
 test/regression/REGRESSION_876_random_number_generator: /usr/lib64/libprotobuf.so
 test/regression/REGRESSION_876_random_number_generator: /usr/lib64/libboost_thread-mt.so

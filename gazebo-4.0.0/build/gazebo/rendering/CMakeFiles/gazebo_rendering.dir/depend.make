@@ -4090,7 +4090,7 @@ gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/O
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreAnimationTrack.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreAny.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreArchive.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreAtomicScalar.h
+gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreAtomicWrappers.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreAxisAlignedBox.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreBlendMode.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreBuildSettings.h
@@ -4149,7 +4149,6 @@ gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/O
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgrePlane.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgrePlaneBoundedVolume.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgrePlatform.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgrePlatformInformation.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgrePose.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgrePrerequisites.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreQuaternion.h
@@ -4192,14 +4191,8 @@ gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/O
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreVertexIndexData.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/OgreViewport.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadDefines.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadHeaders.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
-gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/sdformat-2.0/sdf/Assert.hh
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/sdformat-2.0/sdf/Console.hh
 gazebo/rendering/CMakeFiles/gazebo_rendering.dir/Scene.cc.o: /usr/include/sdformat-2.0/sdf/Converter.hh

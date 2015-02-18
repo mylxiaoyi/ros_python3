@@ -121,6 +121,7 @@ tools/UNIT_gz_TEST: /usr/lib64/libtinyxml.so
 tools/UNIT_gz_TEST: /usr/lib64/libtar.so
 tools/UNIT_gz_TEST: /usr/lib64/libsdformat.so
 tools/UNIT_gz_TEST: /usr/lib64/libopenal.so
+tools/UNIT_gz_TEST: /usr/lib64/libgdal.so
 tools/UNIT_gz_TEST: gazebo/math/libgazebo_math.so.4.0.0
 tools/UNIT_gz_TEST: /usr/lib64/libprotobuf.so
 tools/UNIT_gz_TEST: /usr/lib64/libboost_thread-mt.so

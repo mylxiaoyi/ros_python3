@@ -113,6 +113,7 @@ test/plugins/libModelTrajectoryTestPlugin.so: /usr/lib64/libtinyxml.so
 test/plugins/libModelTrajectoryTestPlugin.so: /usr/lib64/libtar.so
 test/plugins/libModelTrajectoryTestPlugin.so: /usr/lib64/libsdformat.so
 test/plugins/libModelTrajectoryTestPlugin.so: /usr/lib64/libopenal.so
+test/plugins/libModelTrajectoryTestPlugin.so: /usr/lib64/libgdal.so
 test/plugins/libModelTrajectoryTestPlugin.so: /usr/lib64/libprotobuf.so
 test/plugins/libModelTrajectoryTestPlugin.so: gazebo/math/libgazebo_math.so.4.0.0
 test/plugins/libModelTrajectoryTestPlugin.so: /usr/lib64/libboost_thread-mt.so

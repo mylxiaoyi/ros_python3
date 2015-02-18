@@ -26,7 +26,7 @@
 /* #undef HAVE_GTS */
 /* #undef HAVE_QWT */
 /* #undef ENABLE_DIAGNOSTICS */
-/* #undef HAVE_GDAL */
+#define HAVE_GDAL 1
 #define HAVE_USB 1
 /* #undef HAVE_OCULUS */
 

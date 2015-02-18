@@ -170,6 +170,7 @@ gazebo/util/libgazebo_util.so.4.0.0: /usr/lib64/libtinyxml.so
 gazebo/util/libgazebo_util.so.4.0.0: /usr/lib64/libtar.so
 gazebo/util/libgazebo_util.so.4.0.0: /usr/lib64/libsdformat.so
 gazebo/util/libgazebo_util.so.4.0.0: /usr/lib64/libopenal.so
+gazebo/util/libgazebo_util.so.4.0.0: /usr/lib64/libgdal.so
 gazebo/util/libgazebo_util.so.4.0.0: gazebo/math/libgazebo_math.so.4.0.0
 gazebo/util/libgazebo_util.so.4.0.0: /usr/lib64/libprotobuf.so
 gazebo/util/libgazebo_util.so.4.0.0: /usr/lib64/libboost_thread-mt.so
