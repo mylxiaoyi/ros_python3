@@ -41,7 +41,7 @@ from python_qt_binding.QtCore import Qt, qWarning, Signal
 from python_qt_binding.QtGui import QFileDialog, QGraphicsView, QIcon, QWidget
 
 import rosbag
-import bag_helper
+from . import bag_helper
 from .bag_timeline import BagTimeline
 from .topic_selection import TopicSelection
 

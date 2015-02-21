@@ -40,7 +40,7 @@ try:
         qt_gui_cpp = libqt_gui_cpp_shiboken.qt_gui_cpp
 
     elif QT_BINDING == 'pyqt':
-        import libqt_gui_cpp_sip
+        from . import libqt_gui_cpp_sip
         qt_gui_cpp = libqt_gui_cpp_sip.qt_gui_cpp
 
     else:

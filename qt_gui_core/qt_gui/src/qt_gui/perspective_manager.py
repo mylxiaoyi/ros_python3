@@ -39,12 +39,11 @@ from .menu_manager import MenuManager
 from .settings import Settings
 from .settings_proxy import SettingsProxy
 
-
 class PerspectiveManager(QObject):
 
     """Manager for perspectives associated with specific sets of `Settings`."""
 
-    perspective_changed_signal = Signal(basestring)
+    perspective_changed_signal = Signal(str)
     save_settings_signal = Signal(Settings, Settings)
     restore_settings_signal = Signal(Settings, Settings)
     restore_settings_without_plugin_changes_signal = Signal(Settings, Settings)
@@ -67,7 +66,7 @@ class PerspectiveManager(QObject):
 
         # get perspective list from settings
         self.perspectives = self._settings_proxy.value('', 'perspectives', [])
-        if isinstance(self.perspectives, basestring):
+        if isinstance(self.perspectives, str):
             self.perspectives = [self.perspectives]
 
         self._current_perspective = None
