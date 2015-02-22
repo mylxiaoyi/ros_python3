@@ -45,7 +45,7 @@ from .inspector_window import InspectorWindow
 from .status_item import StatusItem
 from .timeline_pane import TimelinePane
 from .timeline import Timeline
-import util_robot_monitor as util
+from . import util_robot_monitor as util
 
 class RobotMonitorWidget(QWidget):
     """

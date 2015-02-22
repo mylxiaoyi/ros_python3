@@ -38,7 +38,7 @@ import rospy
 
 from .status_snapshot import StatusSnapshot, level_to_text
 from .timeline_pane import TimelinePane
-import util_robot_monitor as util
+from . import util_robot_monitor as util
 
 from diagnostic_msgs.msg import DiagnosticArray
 

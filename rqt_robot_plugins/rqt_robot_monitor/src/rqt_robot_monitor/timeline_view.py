@@ -39,7 +39,7 @@ from python_qt_binding.QtCore import QPointF, Signal, Slot
 from python_qt_binding.QtGui import (QColor, QGraphicsPixmapItem,
                                      QGraphicsView, QIcon, QGraphicsScene)
 
-import util_robot_monitor as util
+from . import util_robot_monitor as util
 
 
 class TimelineView(QGraphicsView):
