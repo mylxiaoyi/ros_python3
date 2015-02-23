@@ -65,8 +65,8 @@ struct transformer_t {
 };
 
 static PyTypeObject transformer_Type = {
-  PyObject_HEAD_INIT(&PyType_Type)
-  0,                               /*size*/
+  PyVarObject_HEAD_INIT(&PyType_Type, 0)
+  //0,                               /*size*/
   "_tf.Transformer",                /*name*/
   sizeof(transformer_t),           /*basicsize*/
 };
@@ -471,8 +471,36 @@ static PyMethodDef module_methods[] = {
   {NULL, NULL, NULL},
 };
 
+struct module_state {
+    PyObject* error;
+};
+
+#define GETSTATE(m) ((struct module_state*)PyModule_GetState(m))
+
+static int _tf_traverse(PyObject *m, visitproc visit, void *arg) {
+    Py_VISIT(GETSTATE(m)->error);
+    return 0;
+}
+
+static int _tf_clear(PyObject *m) {
+    Py_CLEAR(GETSTATE(m)->error);
+    return 0;
+}
+
+static struct PyModuleDef moduledef = {
+    PyModuleDef_HEAD_INIT,
+    "_tf",
+    NULL,
+    sizeof(struct module_state),
+    transformer_methods,
+    NULL,
+    _tf_traverse,
+    _tf_clear,
+    NULL
+};
+
 /* extern "C" void init_tf() */
-extern "C" void PyInit__tf()
+extern "C" PyObject* PyInit__tf()
 {
   PyObject *item, *m, *d;
 
@@ -496,13 +524,27 @@ extern "C" void PyInit__tf()
   transformer_Type.tp_flags = Py_TPFLAGS_DEFAULT | Py_TPFLAGS_BASETYPE;
   transformer_Type.tp_methods = transformer_methods;
   if (PyType_Ready(&transformer_Type) != 0)
-    return;
+    return NULL;
 
-  m = Py_InitModule("_tf", module_methods);
+  m = PyModule_Create(&moduledef);
+
+  if (m == NULL)
+      return NULL;
+
+  struct module_state *st = GETSTATE(m);
+
+  st->error = PyErr_NewException("_tf.Error", NULL, NULL);
+  if (st->error == NULL) {
+      Py_DECREF(m);
+      return NULL;
+  }
+
   PyModule_AddObject(m, "Transformer", (PyObject *)&transformer_Type);
   d = PyModule_GetDict(m);
   PyDict_SetItemString(d, "Exception", tf_exception);
   PyDict_SetItemString(d, "ConnectivityException", tf_connectivityexception);
   PyDict_SetItemString(d, "LookupException", tf_lookupexception);
   PyDict_SetItemString(d, "ExtrapolationException", tf_extrapolationexception);
+
+  return m;
 }
