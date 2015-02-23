@@ -32,7 +32,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 #
 import copy
-import cStringIO
+from io import StringIO
 import os
 import rospkg
 import threading
@@ -106,7 +106,7 @@ class RuntimeMonitorWidget(QWidget):
 
     def __del__(self):
         self.shutdown()
- 
+
     def shutdown(self):
         """
         Unregisters subscriber and stops timers
@@ -196,7 +196,7 @@ class RuntimeMonitorWidget(QWidget):
                 self._ok_node.removeChild(item.tree_node)
             elif (item.status.level == DiagnosticStatus.WARN):
                 self._warning_node.removeChild(item.tree_node)
-            elif (item.status.level == -1): 
+            elif (item.status.level == -1):
                 self._stale_node.removeChild(item.tree_node)
             else: # ERROR
                 self._error_node.removeChild(item.tree_node)
