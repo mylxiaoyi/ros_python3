@@ -93,7 +93,6 @@ class ParameterGenerator:
             self.id = id
             self.parent = parent
             self.state = state
-
             self.srcline = inspect.currentframe().f_back.f_lineno
             self.srcfile = inspect.getsourcefile(inspect.currentframe().f_back.f_code)
 
@@ -171,7 +170,7 @@ class ParameterGenerator:
             cls = [x.upper() for x in cls]
             if parent == True:
                 cls.pop()
-                return "::".join(cls)
+            return "::".join(cls)
 
         # dictionary used to create the generated classes
         def to_dict(self):
@@ -353,15 +352,15 @@ $i.desc=$description $range\n"""
         self.mkdir("docs")
         f = open(os.path.join(self.pkgpath, "docs", self.msgname+"-usage.dox"), 'w')
         #print >> f, "/**"
-        print >> f, "\\subsubsection usage Usage"
-        print >> f, '\\verbatim'
-        print >> f, Template('<node name="$nodename" pkg="$pkgname" type="$nodename">').\
-                substitute(pkgname = self.pkgname, nodename = self.nodename)
+        print("\\subsubsection usage Usage", file=f)
+        print('\\verbatim', file = f)
+        print(Template('<node name="$nodename" pkg="$pkgname" type="$nodename">').\
+                substitute(pkgname = self.pkgname, nodename = self.nodename), file = f)
         for param in self.group.get_parameters():
-            print >> f, Template('  <param name="$name" type="$type" value="$default" />').substitute(param)
-        print >> f, '</node>'
-        print >> f, '\\endverbatim'
-        print >> f
+            print(Template('  <param name="$name" type="$type" value="$default" />').substitute(param), file=f)
+        print('</node>', file=f)
+        print('\\endverbatim', file=f)
+        print(file=f)
         #print >> f, "*/"
         f.close()
 
