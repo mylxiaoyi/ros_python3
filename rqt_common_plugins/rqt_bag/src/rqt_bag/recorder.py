@@ -178,7 +178,7 @@ class Recorder(object):
         try:
             self._bag.close()
         except Exception as ex:
-            print >> sys.stderr, 'Error closing bag [%s]: %s' % (self._bag.filename, str(ex))
+            print('Error closing bag [%s]: %s' % (self._bag.filename, str(ex)), file = sys.stderr)
 
     def _should_subscribe_to(self, topic):
         if self._all:
