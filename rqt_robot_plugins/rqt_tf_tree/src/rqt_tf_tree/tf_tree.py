@@ -42,7 +42,8 @@ import tf2_ros
 
 from python_qt_binding import loadUi
 from python_qt_binding.QtCore import QFile, QIODevice, QObject, Qt, Signal
-from python_qt_binding.QtGui import QFileDialog, QGraphicsScene, QIcon, QImage, QPainter, QWidget
+from python_qt_binding.QtWidgets import QFileDialog, QGraphicsScene, QWidget
+from python_qt_binding.QtGui import QIcon, QImage, QPainter
 from python_qt_binding.QtSvg import QSvgGenerator
 from qt_dotgraph.pydotfactory import PydotFactory
 # from qt_dotgraph.pygraphvizfactory import PygraphvizFactory
@@ -165,9 +166,9 @@ class RosTfTree(QObject):
         (nodes, edges) = self.dot_to_qt.dotcode_to_qt_items(self._current_dotcode,
                                                             highlight_level)
 
-        for node_item in nodes.values():
+        for node_item in nodes.itervalues():
             self._scene.addItem(node_item)
-        for edge_items in edges.values():
+        for edge_items in edges.itervalues():
             for edge_item in edge_items:
                 edge_item.add_to_scene(self._scene)
 

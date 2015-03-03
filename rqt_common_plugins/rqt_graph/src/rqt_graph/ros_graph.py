@@ -34,7 +34,8 @@ import rospkg
 
 from python_qt_binding import loadUi
 from python_qt_binding.QtCore import QAbstractListModel, QFile, QIODevice, Qt, Signal
-from python_qt_binding.QtGui import QCompleter, QFileDialog, QGraphicsScene, QIcon, QImage, QPainter, QWidget
+from python_qt_binding.QtWidgets import QCompleter, QFileDialog, QGraphicsScene, QWidget
+from python_qt_binding.QtGui import QIcon, QImage, QPainter
 from python_qt_binding.QtSvg import QSvgGenerator
 
 import rosgraph.impl.graph
@@ -291,9 +292,9 @@ class RosGraph(Plugin):
                                                             highlight_level=highlight_level,
                                                             same_label_siblings=True)
 
-        for node_item in nodes.values():
+        for node_item in nodes.itervalues():
             self._scene.addItem(node_item)
-        for edge_items in edges.values():
+        for edge_items in edges.itervalues():
             for edge_item in edge_items:
                 edge_item.add_to_scene(self._scene)
 

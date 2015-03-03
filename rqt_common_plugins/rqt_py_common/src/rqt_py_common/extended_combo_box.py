@@ -30,8 +30,8 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-from python_qt_binding.QtCore import Qt, Signal, Slot
-from python_qt_binding.QtGui import QComboBox, QCompleter, QSortFilterProxyModel
+from python_qt_binding.QtCore import Qt, Signal, Slot, QSortFilterProxyModel
+from python_qt_binding.QtWidgets import QComboBox, QCompleter
 
 
 class ExtendedComboBox(QComboBox):
@@ -55,7 +55,7 @@ class ExtendedComboBox(QComboBox):
         self.setCompleter(self.completer)
 
         # connect signals
-        self.lineEdit().textEdited[str].connect(self.filter_model.setFilterFixedString)
+        self.lineEdit().textEdited[unicode].connect(self.filter_model.setFilterFixedString)
         self.completer.activated.connect(self.on_completer_activated)
         self.setItems.connect(self.onSetItems)
 

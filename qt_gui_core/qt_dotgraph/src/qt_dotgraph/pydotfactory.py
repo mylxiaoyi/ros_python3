@@ -53,7 +53,7 @@ class PydotFactory():
         return ret
 
     def escape_name(self, name):
-        ret = urllib.parse.quote(name.strip())
+        ret = urllib.quote(name.strip())
         ret = ret.replace('/', '_')
         ret = ret.replace('%', '_')
         ret = ret.replace('-', '_')
@@ -159,5 +159,4 @@ class PydotFactory():
     def create_dot(self, graph):
         dot = graph.create_dot()
         # sadly pydot generates line wraps cutting between numbers
-        dot = str(dot, encoding = 'UTF-8')
         return dot.replace("\\\n", "")

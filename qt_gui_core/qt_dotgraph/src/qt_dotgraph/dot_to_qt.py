@@ -80,6 +80,10 @@ class DotToQtGenerator():
                     attr[key] = get_unquoted(obj_dic['nodes']['graph'][0]['attributes'], key)
         subgraph.attr = attr
 
+        # edit by mylxiaoyi for KeyError bb exception
+        if subgraph.attr.has_key('bb') is not True:
+            return None
+
         bb = subgraph.attr['bb'].strip('"').split(',')
         if len(bb) < 4:
             # bounding box is empty
@@ -113,7 +117,7 @@ class DotToQtGenerator():
         """
         # let pydot imitate pygraphviz api
         attr = {}
-        for name in node.get_attributes().keys():
+        for name in node.get_attributes().iterkeys():
             value = get_unquoted(node, name)
             attr[name] = value
         obj_dic = node.__getattribute__("obj_dict")
@@ -139,7 +143,7 @@ class DotToQtGenerator():
             # happens on Lucid pygraphviz version
             print("Error, label is None for node %s, pygraphviz version may be too old." % node)
         else:
-            name = bytes(name, 'UTF-8').decode('unicode_escape')
+            name = name.decode('string_escape')
 
         # decrease rect by one so that edges do not reach inside
         bb_width = len(name) / 5

@@ -235,7 +235,8 @@ QVariant Property::getViewData( int column, int role ) const
   if ( role == Qt::TextColorRole &&
        ( parent_ && parent_->getDisableChildren() ) )
   {
-    return Qt::gray;
+    //return Qt::gray;
+    return QColor(Qt::gray);
   }
 
   switch( column )

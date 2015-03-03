@@ -67,7 +67,6 @@ MapDisplay::MapDisplay()
   , width_( 0 )
   , height_( 0 )
 {
-  connect(this, SIGNAL( mapUpdated() ), this, SLOT( showMap() ));
   topic_property_ = new RosTopicProperty( "Topic", "",
                                           QString::fromStdString( ros::message_traits::datatype<nav_msgs::OccupancyGrid>() ),
                                           "nav_msgs::OccupancyGrid topic to subscribe to.",
@@ -296,9 +295,6 @@ void MapDisplay::onInitialize()
     manual_object_->setRenderQueueGroup(Ogre::RENDER_QUEUE_4);
   }
 
-  // don't show map until the plugin is actually enabled
-  manual_object_->setVisible( false );
-
   updateAlpha();
 }
 
@@ -454,8 +450,7 @@ bool validateFloats(const nav_msgs::OccupancyGrid& msg)
 void MapDisplay::incomingMap(const nav_msgs::OccupancyGrid::ConstPtr& msg)
 {
   current_map_ = *msg;
-  // updated via signal in case ros spinner is in a different thread
-  Q_EMIT mapUpdated();
+  showMap();
   loaded_ = true;
 }
 
@@ -485,8 +480,7 @@ void MapDisplay::incomingUpdate(const map_msgs::OccupancyGridUpdate::ConstPtr& u
             &update->data[ y * update->width ],
             update->width );
   }
-  // updated via signal in case ros spinner is in a different thread
-  Q_EMIT mapUpdated();
+  showMap();
 }
 
 void MapDisplay::showMap()

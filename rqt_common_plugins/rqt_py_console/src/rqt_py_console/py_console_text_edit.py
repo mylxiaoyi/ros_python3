@@ -32,6 +32,7 @@
 
 import sys
 from code import InteractiveInterpreter
+from exceptions import SystemExit
 
 from python_qt_binding import QT_BINDING, QT_BINDING_VERSION
 from python_qt_binding.QtCore import Qt, Signal

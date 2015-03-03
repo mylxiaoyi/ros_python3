@@ -83,17 +83,11 @@ public:
 
   virtual void setTopic( const QString &topic, const QString &datatype );
 
-Q_SIGNALS:
-  /** @brief Emitted when a new map is received*/
-  void mapUpdated();
-
 protected Q_SLOTS:
   void updateAlpha();
   void updateTopic();
   void updateDrawUnder();
   void updatePalette();
-  /** @brief Show current_map_ in the scene. */
-  void showMap();
 
 protected:
   // overrides from Display
@@ -108,6 +102,9 @@ protected:
 
   /** @brief Copy update's data into current_map_ and call showMap(). */ 
   void incomingUpdate(const map_msgs::OccupancyGridUpdate::ConstPtr& update);
+
+  /** @brief Show current_map_ in the scene. */
+  void showMap();
 
   void clear();
 

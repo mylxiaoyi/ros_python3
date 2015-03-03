@@ -1,5 +1,5 @@
 
-qt4_wrap_cpp(MOC_FILES
+qt5_wrap_cpp(MOC_FILES
   image_view.h
 )
 

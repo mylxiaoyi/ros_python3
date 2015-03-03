@@ -31,7 +31,7 @@
 import traceback
 
 from python_qt_binding.QtCore import qCritical, qDebug, QObject, Qt, qWarning, Signal, Slot
-from python_qt_binding.QtGui import QDockWidget, QToolBar
+from python_qt_binding.QtWidgets import QDockWidget, QToolBar
 
 from .dock_widget import DockWidget
 from .dock_widget_title_bar import DockWidgetTitleBar
@@ -113,7 +113,7 @@ class PluginHandler(QObject):
             qCritical('PluginHandler.load() failed%s' % (':\n%s' % str(exception) if exception != True else ''))
 
     def _garbage_widgets_and_toolbars(self):
-        for widget in list(self._widgets.keys()):
+        for widget in self._widgets.keys():
             self.remove_widget(widget)
             self._delete_widget(widget)
         for toolbar in self._toolbars:

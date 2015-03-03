@@ -51,12 +51,9 @@
 #include <assimp/Importer.hpp>
 #include <assimp/postprocess.h>
 #else
-//#include <assimp/aiScene.h>
-#include <assimp/scene.h>
-//#include <assimp/assimp.hpp>
-//#include <assimp/aiPostProcess.h>
-#include <assimp/Importer.hpp>
-#include <assimp/postprocess.h>
+#include <assimp/aiScene.h>
+#include <assimp/assimp.hpp>
+#include <assimp/aiPostProcess.h>
 #endif
 
 #include <Eigen/Geometry>

@@ -64,7 +64,8 @@ find_package(OpenGL REQUIRED)
 
 find_package(PythonLibs REQUIRED)
 
-find_package(Qt4 REQUIRED COMPONENTS QtCore QtGui QtOpenGL)
+#find_package(Qt4 REQUIRED COMPONENTS QtCore QtGui QtOpenGL)
+find_package(Qt5 REQUIRED COMPONENTS OpenGL)
 
 find_package(catkin REQUIRED
   COMPONENTS
@@ -113,12 +114,14 @@ catkin_package(
     ${EIGEN_INCLUDE_DIRS}
     ${OGRE_OV_INCLUDE_DIRS}
     ${OPENGL_INCLUDE_DIR}
+    ${Qt5OpenGL_INCLUDE_DIRS}
   LIBRARIES
     rviz
     default_plugin
     ${OGRE_OV_LIBRARIES_ABS}
     ${rviz_ADDITIONAL_LIBRARIES}
     ${OPENGL_LIBRARIES}
+    ${Qt5OpenGL_LIBRARIES}
   CATKIN_DEPENDS
     geometry_msgs
     image_geometry
@@ -144,11 +147,12 @@ include_directories(SYSTEM
   ${OGRE_OV_INCLUDE_DIRS}
   ${OPENGL_INCLUDE_DIR}
   ${PYTHON_INCLUDE_PATH}
+  ${Qt5OpenGL_INCLUDE_DIRS}
 )
 include_directories(src ${catkin_INCLUDE_DIRS})
 
-include(${QT_USE_FILE})
-add_definitions(-DQT_NO_KEYWORDS)
+#include(${QT_USE_FILE})
+#add_definitions(-DQT_NO_KEYWORDS)
 
 #### If gtk ends up being the best way to get the correct window
 #### position under X11, this is how to compile it in.

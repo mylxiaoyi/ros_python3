@@ -30,7 +30,7 @@ from __future__ import division
 
 from qt_gui.plugin import Plugin
 from python_qt_binding import loadUi
-from python_qt_binding.QtGui import QLabel, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QCheckBox, QWidget, QToolBar, QLineEdit, QPushButton
+from python_qt_binding.QtWidgets import QLabel, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QCheckBox, QWidget, QToolBar, QLineEdit, QPushButton
 from python_qt_binding.QtCore import Qt, QTimer
 
 from rqt_top.node_info import NodeInfo
@@ -42,7 +42,7 @@ import textwrap
 class TopWidgetItem(QTreeWidgetItem):
     def __init__(self, parent=None):
         super(TopWidgetItem, self).__init__(parent)
-
+        
     def __lt__(self, other):
         col = self.treeWidget().sortColumn()
         dtype = Top.SORT_TYPE[col]
@@ -156,14 +156,15 @@ class Top(Plugin):
             twi.setText(col, self.FORMAT_STRS[col] % val)
         self._table_widget.insertTopLevelItem(row, twi)
 
-        for col, (key, func) in self.TOOLTIPS.items():
+        for col, (key, func) in self.TOOLTIPS.iteritems():
             twi.setToolTip(col, func(info[key]))
 
         with self._selected_node_lock:
             if twi.text(0) == self._selected_node:
                 twi.setSelected(True)
 
-        self._table_widget.setItemHidden(twi, len(self.name_filter.findall(info['node_name'])) == 0)
+        #self._table_widget.setItemHidden(twi, len(self.name_filter.findall(info['node_name'])) == 0)
+        twi.setHidden(len(self.name_filter.findall(info['node_name'])) == 0)
 
     def update_table(self):
         self._table_widget.clear()
@@ -174,7 +175,7 @@ class Top(Plugin):
     def shutdown_plugin(self):
         self._update_timer.stop()
 
-    def save_settings(self, plugin_settings, instance_settings):
+    def save_settings(self, plugin_settings, instance_settings):        
         instance_settings.set_value('filter_text', self._filter_box.text())
         instance_settings.set_value('is_regex', int(self._regex_box.checkState()))
 

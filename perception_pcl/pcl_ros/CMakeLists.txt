@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 2.8)
 project(pcl_ros)
 
-set(PCL_DIR "/opt/pcl/share/pcl-1.7")
-
 ## Find system dependencies
 find_package(cmake_modules REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system filesystem thread)
 find_package(Eigen REQUIRED)
+
+set(PCL_DIR "/opt/pcl/share/pcl-1.7")
 find_package(PCL REQUIRED)
 
 ## Find catkin packages
