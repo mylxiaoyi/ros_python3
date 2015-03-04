@@ -543,6 +543,7 @@ class Main(object):
             if sys.platform == 'darwin':
                 main_window.raise_()
 
+        #return app.exec_()
         return app.exec_()
 
 

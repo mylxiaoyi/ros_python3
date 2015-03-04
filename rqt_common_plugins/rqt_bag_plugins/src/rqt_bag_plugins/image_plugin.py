@@ -39,6 +39,7 @@ from .image_view import ImageView
 class ImagePlugin(Plugin):
 
     def __init__(self):
+        print('in here?')
         pass
 
     def get_view_class(self):
