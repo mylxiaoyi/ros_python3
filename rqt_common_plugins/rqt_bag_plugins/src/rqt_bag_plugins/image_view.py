@@ -34,14 +34,14 @@ from PIL import Image
 
 # HACK workaround for upstream pillow issue python-pillow/Pillow#400
 import sys
-if 'PyQt5' in sys.modules:
-    sys.modules['PyQt5'] = None
+
 from PIL.ImageQt import ImageQt
 
 from rqt_bag import TopicMessageView
-import image_helper
+from . import image_helper
 
-from python_qt_binding.QtGui import QGraphicsScene, QGraphicsView, QPixmap
+from python_qt_binding.QtWidgets import QGraphicsScene, QGraphicsView
+from python_qt_binding.QtGui import QPixmap
 
 
 class ImageView(TopicMessageView):

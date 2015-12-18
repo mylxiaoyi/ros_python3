@@ -180,9 +180,9 @@ static bool pyopencv_to(PyObject* o, Mat& m, const ArgInfo info)
         return true;
     }
 
-    if( PyInt_Check(o) )
+    if( PyLong_Check(o) )
     {
-        double v[] = {(double)PyInt_AsLong((PyObject*)o), 0., 0., 0.};
+        double v[] = {(double)PyLong_AsLong((PyObject*)o), 0., 0., 0.};
         m = Mat(4, 1, CV_64F, v).clone();
         return true;
     }
@@ -199,8 +199,8 @@ static bool pyopencv_to(PyObject* o, Mat& m, const ArgInfo info)
         for( i = 0; i < sz; i++ )
         {
             PyObject* oi = PyTuple_GET_ITEM(o, i);
-            if( PyInt_Check(oi) )
-                m.at<double>(i) = (double)PyInt_AsLong(oi);
+            if( PyLong_Check(oi) )
+                m.at<double>(i) = (double)PyLong_AsLong(oi);
             else if( PyFloat_Check(oi) )
                 m.at<double>(i) = (double)PyFloat_AsDouble(oi);
             else

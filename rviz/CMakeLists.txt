@@ -91,7 +91,9 @@ endif()
 
 find_package(OpenGL REQUIRED)
 
-find_package(Qt4 REQUIRED COMPONENTS QtCore QtGui QtOpenGL)
+#find_package(Qt4 REQUIRED COMPONENTS QtCore QtGui QtOpenGL)
+find_package(Qt5 REQUIRED COMPONENTS OpenGL)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 
 find_package(catkin REQUIRED
   COMPONENTS
@@ -172,11 +174,12 @@ include_directories(SYSTEM
   ${OGRE_OV_INCLUDE_DIRS}
   ${OPENGL_INCLUDE_DIR}
   ${PYTHON_INCLUDE_PATH}
+  ${Qt5OpenGL_INCLUDE_DIRS}
 )
 include_directories(src ${catkin_INCLUDE_DIRS})
 
-include(${QT_USE_FILE})
-add_definitions(-DQT_NO_KEYWORDS)
+#include(${QT_USE_FILE})
+#add_definitions(-DQT_NO_KEYWORDS)
 
 #### If gtk ends up being the best way to get the correct window
 #### position under X11, this is how to compile it in.

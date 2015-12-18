@@ -34,8 +34,8 @@ import os
 import rospkg
 
 from python_qt_binding import loadUi
-from python_qt_binding.QtGui import QWidget
-import shell_text_edit
+from python_qt_binding.QtWidgets import QWidget
+from . import shell_text_edit
 
 
 class ShellWidget(QWidget):

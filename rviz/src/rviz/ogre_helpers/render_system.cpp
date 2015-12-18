@@ -28,13 +28,14 @@
  */
 
 // This is required for QT_MAC_USE_COCOA to be set
-#include <QtCore/qglobal.h>
+#include <QtCore>
 
 #ifndef Q_OS_MAC
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <GL/glx.h>
 #endif
+
 
 // X.h #defines CursorShape to be "0".  Qt uses CursorShape in normal
 // C++ way.  This wasn't an issue until ogre_logging.h (below)

@@ -435,7 +435,7 @@ TopicDisplayWidget::TopicDisplayWidget()
   tree_->setColumnCount( 2 );
 
   tree_->header()->setStretchLastSection( false );
-  tree_->header()->setResizeMode( 0, QHeaderView::Stretch );
+  tree_->header()->setSectionResizeMode( 0, QHeaderView::Stretch );
 
   enable_hidden_box_ = new QCheckBox( "Show unvisualizable topics" );
   enable_hidden_box_->setCheckState( Qt::Unchecked );

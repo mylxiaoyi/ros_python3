@@ -19,7 +19,7 @@ configure_file(env_config.cpp.in ${ENV_CONFIG_FILE} @ONLY)
 
 # We create one lib with the C++...
 
-qt4_wrap_cpp(MOC_FILES
+qt5_wrap_cpp(MOC_FILES
   display_context.h
   display_group.h
   display.h
@@ -193,7 +193,8 @@ target_link_libraries(${PROJECT_NAME}
   ${catkin_LIBRARIES}
   ${OGRE_OV_LIBRARIES_ABS}
   ${OPENGL_LIBRARIES}
-  ${QT_LIBRARIES}
+  #${QT_LIBRARIES}
+  ${Qt5OpenGL_LIBRARIES}
   ${rviz_ADDITIONAL_LIBRARIES}
   assimp
   yaml-cpp

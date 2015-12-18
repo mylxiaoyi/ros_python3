@@ -34,8 +34,9 @@ import os
 
 from python_qt_binding import loadUi
 from python_qt_binding.QtCore import Qt
-from python_qt_binding.QtGui import (QAction, QIcon, QMenu, QMessageBox,
+from python_qt_binding.QtWidgets import (QAction, QMenu, QMessageBox,
                                      QTreeView, QWidget)
+from python_qt_binding.QtGui import QIcon
 import roslib
 import rosmsg
 import rospkg
@@ -200,7 +201,7 @@ class MessagesWidget(QWidget):
 
                 else:
                     raise
-            except rosmsg.ROSMsgException, e:
+            except rosmsg.ROSMsgException as e:
                 QMessageBox.warning(self, self.tr('Warning'),
                                     self.tr('The selected item component ' +
                                             'does not have text to view.'))

@@ -1,40 +1,9 @@
-from copy import copy
 import os
 import re
 import subprocess
 import sys
-
+from PyQt5 import QtCore 
 import sipconfig
-try:
-    from PyQt4.pyqtconfig import Configuration
-except ImportError:
-    # PyQt >= 4.11 has no pyqtconfig module if built with configure-ng.py
-    from PyQt4 import QtCore
-
-    class Configuration(sipconfig.Configuration):
-        def __init__(self):
-            env = copy(os.environ)
-            env['QT_SELECT'] = '4'
-            qtconfig = subprocess.check_output(
-                ['qmake', '-query'], env=env, universal_newlines=True)
-            qtconfig = dict(line.split(':', 1) for line in qtconfig.splitlines())
-            pyqtconfig = {
-                'qt_archdata_dir': qtconfig['QT_INSTALL_DATA'],
-                'qt_data_dir': qtconfig['QT_INSTALL_DATA'],
-                'qt_dir': qtconfig['QT_INSTALL_PREFIX'],
-                'qt_inc_dir': qtconfig['QT_INSTALL_HEADERS'],
-                'qt_lib_dir': qtconfig['QT_INSTALL_LIBS'],
-                'qt_threaded': 1,
-                'qt_version': QtCore.QT_VERSION,
-                'qt_winconfig': 'shared',
-            }
-            sipconfig.Configuration.__init__(self, [pyqtconfig])
-
-            macros = sipconfig._default_macros.copy()
-            macros['INCDIR_QT'] = qtconfig['QT_INSTALL_HEADERS']
-            macros['LIBDIR_QT'] = qtconfig['QT_INSTALL_LIBS']
-            macros['MOC'] = 'moc-qt4'
-            self.set_build_macros(macros)
 
 if len(sys.argv) != 8:
     print('usage: %s build-dir sip-file output_dir include_dirs libs lib_dirs ldflags' % sys.argv[0])
@@ -47,18 +16,12 @@ build_dir, sip_file, output_dir, include_dirs, libs, lib_dirs, ldflags = sys.arg
 build_file = 'pyqtscripting.sbf'
 
 # Get the PyQt configuration information.
-config = Configuration()
+config = sipconfig.Configuration()
 
 # Get the extra SIP flags needed by the imported qt module.  Note that
 # this normally only includes those flags (-x and -t) that relate to SIP's
 # versioning system.
-try:
-    sip_dir = config.pyqt_sip_dir
-    sip_flags = config.pyqt_sip_flags
-except AttributeError:
-    # sipconfig.Configuration does not have a pyqt_sip_dir or pyqt_sip_flags attribute
-    sip_dir = sipconfig._pkg_config['default_sip_dir'] + '/PyQt4'
-    sip_flags = QtCore.PYQT_CONFIGURATION['sip_flags']
+qt_sip_flags = QtCore.PYQT_CONFIGURATION['sip_flags']
 
 try:
     os.makedirs(build_dir)
@@ -71,10 +34,10 @@ cmd = [
     config.sip_bin,
     '-c', build_dir,
     '-b', os.path.join(build_dir, build_file),
-    '-I', sip_dir,
+    '-I', os.path.join(config.default_sip_dir, 'PyQt5'),
     '-w'
 ]
-cmd += sip_flags.split(' ')
+cmd += qt_sip_flags.split(' ')
 cmd.append(sip_file)
 subprocess.check_call(cmd)
 
@@ -82,10 +45,9 @@ subprocess.check_call(cmd)
 # pyqtconfig module takes care of all the extra preprocessor, compiler and
 # linker flags needed by the Qt library.
 makefile = sipconfig.SIPModuleMakefile(
-    dir=build_dir,
     configuration=config,
     build_file=build_file,
-    qt=['QtCore', 'QtGui']
+    dir=build_dir
 )
 
 # hack to override makefile behavior which always prepend -l to libraries which is wrong for absolute paths
@@ -114,7 +76,7 @@ for lib_dir in split_paths(lib_dirs):
     lib_dir = lib_dir.replace('\\', '')
     makefile.extra_lib_dirs.append(lib_dir)
 for ldflag in ldflags.split('\\ '):
-    makefile.LFLAGS.append(ldflag)
+    makefile.extra_lflags.append(ldflag)
 
 # redirect location of generated library
 makefile._target = '"%s"' % os.path.join(output_dir, makefile._target)

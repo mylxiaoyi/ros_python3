@@ -30,7 +30,7 @@ from __future__ import division
 
 from qt_gui.plugin import Plugin
 from python_qt_binding import loadUi
-from python_qt_binding.QtGui import QLabel, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QCheckBox, QWidget, QToolBar, QLineEdit, QPushButton
+from python_qt_binding.QtWidgets import QLabel, QTreeWidget, QTreeWidgetItem, QVBoxLayout, QCheckBox, QWidget, QToolBar, QLineEdit, QPushButton
 from python_qt_binding.QtCore import Qt, QTimer
 
 from rqt_top.node_info import NodeInfo
@@ -156,14 +156,14 @@ class Top(Plugin):
             twi.setText(col, self.FORMAT_STRS[col] % val)
         self._table_widget.insertTopLevelItem(row, twi)
 
-        for col, (key, func) in self.TOOLTIPS.iteritems():
+        for col, (key, func) in self.TOOLTIPS.items():
             twi.setToolTip(col, func(info[key]))
 
         with self._selected_node_lock:
             if twi.text(0) == self._selected_node:
                 twi.setSelected(True)
 
-        self._table_widget.setItemHidden(twi, len(self.name_filter.findall(info['node_name'])) == 0)
+        self._table_widget.setHidden(twi, len(self.name_filter.findall(info['node_name'])) == 0)
 
     def update_table(self):
         self._table_widget.clear()

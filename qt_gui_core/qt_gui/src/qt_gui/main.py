@@ -38,6 +38,7 @@ import platform
 import signal
 import sys
 
+from colorama import Fore
 
 class Main(object):
 
@@ -169,7 +170,7 @@ class Main(object):
 
     def create_application(self, argv):
         from python_qt_binding.QtCore import Qt
-        from python_qt_binding.QtGui import QApplication
+        from python_qt_binding.QtWidgets import QApplication
         app = QApplication(argv)
         app.setAttribute(Qt.AA_DontShowIconsInMenus, False)
         return app
@@ -335,8 +336,10 @@ class Main(object):
         setattr(sys, 'SELECT_QT_BINDING', self._options.qt_binding)
         from python_qt_binding import QT_BINDING
 
-        from python_qt_binding.QtCore import qDebug, qInstallMsgHandler, QSettings, Qt, QtCriticalMsg, QtDebugMsg, QtFatalMsg, QTimer, QtWarningMsg
-        from python_qt_binding.QtGui import QAction, QIcon, QMenuBar
+        #from python_qt_binding.QtCore import qDebug, qInstallMsgHandler, QSettings, Qt, QtCriticalMsg, QtDebugMsg, QtFatalMsg, QTimer, QtWarningMsg
+        from python_qt_binding.QtCore import qDebug, qInstallMessageHandler, QSettings, Qt, QtCriticalMsg, QtDebugMsg, QtFatalMsg, QTimer, QtWarningMsg
+        from python_qt_binding.QtGui import QIcon
+        from python_qt_binding.QtWidgets import QAction, QMenuBar
 
         from .about_handler import AboutHandler
         from .composite_plugin_provider import CompositePluginProvider
@@ -348,21 +351,21 @@ class Main(object):
         from .perspective_manager import PerspectiveManager
         from .plugin_manager import PluginManager
 
-        def message_handler(type_, msg):
+        def message_handler(self, type_, msg):
             colored_output = 'TERM' in os.environ and 'ANSI_COLORS_DISABLED' not in os.environ
-            cyan_color = '\033[36m' if colored_output else ''
-            red_color = '\033[31m' if colored_output else ''
-            reset_color = '\033[0m' if colored_output else ''
+            cyan_color = Fore.CYAN if colored_output else ''
+            red_color = Fore.RED if colored_output else ''
+            reset_color = Fore.RESET if colored_output else ''
             if type_ == QtDebugMsg and self._options.verbose:
                 print(msg, file=sys.stderr)
             elif type_ == QtWarningMsg:
-                print(cyan_color + msg + reset_color, file=sys.stderr)
+                print(cyan_color + msg.decode('utf-8') + reset_color, file=sys.stderr)
             elif type_ == QtCriticalMsg:
-                print(red_color + msg + reset_color, file=sys.stderr)
+                print(red_color + msg.decode('utf-8') + reset_color, file=sys.stderr)
             elif type_ == QtFatalMsg:
-                print(red_color + msg + reset_color, file=sys.stderr)
+                print(red_color + msg.decode('utf-8') + reset_color, file=sys.stderr)
                 sys.exit(1)
-        qInstallMsgHandler(message_handler)
+        qInstallMessageHandler(message_handler)
 
         app = self.create_application(argv)
 
@@ -507,7 +510,7 @@ class Main(object):
             elif len(plugins) > 1:
                 print('qt_gui_main() found multiple plugins matching "%s"\n%s' % (plugin, '\n'.join(plugins.values())))
                 return 1
-            plugin = plugins.keys()[0]
+            plugin = list(plugins.keys())[0]
 
         qDebug('QtBindingHelper using %s' % QT_BINDING)
 

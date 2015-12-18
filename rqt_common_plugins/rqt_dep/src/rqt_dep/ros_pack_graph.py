@@ -38,7 +38,8 @@ import rospkg
 
 from python_qt_binding import loadUi
 from python_qt_binding.QtCore import QFile, QIODevice, Qt, Signal, Slot, QAbstractListModel
-from python_qt_binding.QtGui import QFileDialog, QGraphicsScene, QIcon, QImage, QPainter, QWidget, QCompleter
+from python_qt_binding.QtWidgets import QFileDialog, QGraphicsScene, QWidget, QCompleter
+from python_qt_binding.QtGui import QIcon, QImage, QPainter
 from python_qt_binding.QtSvg import QSvgGenerator
 
 import rosservice
@@ -72,7 +73,8 @@ class StackageCompletionModel(QAbstractListModel):
     """Ros package and stacknames"""
     def __init__(self, linewidget, rospack, rosstack):
         super(StackageCompletionModel, self).__init__(linewidget)
-        self.allnames = sorted(list(set(rospack.list() + rosstack.list())))
+        # python3 need to convert dict_keys to list
+        self.allnames = sorted(list(set(list(rospack.list()) + list(rosstack.list()))))
         self.allnames = self.allnames + ['-%s' % name for name in self.allnames]
 
     def rowCount(self, parent):
@@ -320,7 +322,7 @@ class RosPackGraph(Plugin):
                         try:
                             service_type = rosservice.get_service_type(service_name)
                             tool_tip += '\n  %s [%s]' % (service_name, service_type)
-                        except rosservice.ROSServiceIOException, e:
+                        except rosservice.ROSServiceIOException as e:
                             tool_tip += '\n  %s' % (e)
                 return tool_tip
             elif item_type == 'topic':
@@ -333,9 +335,9 @@ class RosPackGraph(Plugin):
         for item in self._scene.items():
             self._scene.removeItem(item)
         self._scene.clear()
-        for node_item in self._nodes.itervalues():
+        for node_item in self._nodes.values():
             self._scene.addItem(node_item)
-        for edge_items in self._edges.itervalues():
+        for edge_items in self._edges.values():
             for edge_item in edge_items:
                 edge_item.add_to_scene(self._scene)
 
